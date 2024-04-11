@@ -1,0 +1,73 @@
+.contact-form-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.dev-card {
+  width: 300px;
+  height: fit-content;
+  margin: auto;
+  padding: 20px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.dev-card img {
+  width: 160px;
+  border-radius: 50%;
+
+  margin: 5px auto;
+}
+
+
+.dev-name {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.923);
+  font-family: 'Holtwood One SC', sans-serif;
+
+  margin: 5px;
+}
+
+.dev-codename {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(254, 199, 123);
+  margin: 0px 10px;
+
+  font-style: italic;
+}
+
+.dev-sub-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(23, 174, 228);
+  margin: 0px 10px;
+}
+
+.small-para {
+  font-size: 15px;
+  color: white;
+  margin: 8px;
+}
+
+.dev-overlay {
+  background-color: rgba(0, 0, 0, 0.558);
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.
