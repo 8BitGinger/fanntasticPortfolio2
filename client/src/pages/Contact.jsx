@@ -36,14 +36,9 @@ const Contact = () => {
             <div className="dev">
               <DevCard />
             </div>
-            <div className="contact-form-container">
-              <form
-                id="contact-form"
-                className=" flex-1 justify-center items-center text-center"
-                onSubmit={handleSubmit}
-              >
+            <div className="contact-form">
+              <form id="contact-form" onSubmit={handleSubmit}>
                 <input
-                  className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all"
                   type="name"
                   placeholder="Your Name"
                   name="name"
@@ -56,7 +51,6 @@ const Contact = () => {
                   errors={state.errors}
                 />
                 <input
-                  className="bg-transparent border-b py-3 outline-none w-full placeholder:text-white focus:border-accent transition-all"
                   type="email"
                   placeholder="Your Email"
                   name="email"
@@ -69,7 +63,6 @@ const Contact = () => {
                   errors={state.errors}
                 />
                 <textarea
-                  className="bg-transparent border-b py-12 outline-none w-full placeholder:text-white focus:border-accent transition-all"
                   placeholder="Your Message"
                   name="message"
                   id="message"
@@ -85,9 +78,8 @@ const Contact = () => {
                   type="submit"
                   disabled={state.submitting}
                   onClick={reset}
-                  className="btn btn-round-2 mt-3 mb-20 w-fit uppercase"
                 >
-                  Submit
+                  Send
                 </button>
               </form>
             </div>

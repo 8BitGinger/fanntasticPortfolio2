@@ -2,17 +2,33 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
+  background-color: navy;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background: url(./assets/images/background.png);
-  background-position: center center;
+  background-position: left;
   background-size: cover;
+
   background-repeat: no-repeat;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  transition: background-position 1s;
   box-sizing: border-box;
+  animation: bg-animation 120s infinite;
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+
+  50% {
+    background-position: right;
+  }
+
+  100% {
+    background-position: left;
+  }
 }

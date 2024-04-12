@@ -13,30 +13,35 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
 }
 
 .nav-bar-container {
+  position: fixed;
+  top: 1;
+  left: 0;
   margin: 0;
   padding: 0;
-  position: sticky;
-  top: 0;
-  left: 0;
-  height: 75px;
   width: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
 .nav-bar {
+  margin: 0px auto;
   width: fit-content;
-  margin: auto;
+
   border-radius: 50px;
   padding: 10px;
-  height: 75px;
+
   background-color: rgba(0, 0, 0, 0.725);
   border: 1px solid rgba(126, 124, 124, 0.28);
   display: flex;
@@ -48,12 +53,12 @@
 
 .nav-link {
   margin: auto 3px;
-  font-size: 25px;
+  font-size: 20px;
   padding: 5px;
   color: white;
   text-decoration: none;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,12 +77,24 @@
   background-position: right;
 }
 
+.nav-link:active {
+  scale: 0.9;
+}
+
+.nav-link:hover {
+  scale: 1.05;
+}
+
 @keyframes bg-animation {
   0% {
     background-position: left;
   }
 
-  100% {
+  50% {
     background-position: right;
+  }
+
+  100% {
+    background-position: left;
   }
 }
