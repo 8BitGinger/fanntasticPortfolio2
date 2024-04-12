@@ -1,0 +1,85 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+  width: 80%;
+  margin: auto;
+}
+
+.about-text {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+
+.about-text h2 {
+  font-size: 30px;
+  color: orange;
+  width: 100%;
+}
+
+.hobbies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  padding-bottom: 25px;
+}
+
+.word {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+  font-size: 25px;
+}
+
+.noTilt {
+  width: 100%;
+}
+
+.tilt-left {
+  width: 40%;
+  color: green;
+  transform: rotate(-20deg);
+  padding: 10px;
+}
+.tilt-right {
+  width: 40%;
+  color: yellow;
+  transform: rotate(10deg);
+  padding: 10px;
+}
+
+.tiltUp-left {
+  width: 40%;
+  color: red;
+  transform: rotate(20deg);
+  padding: 10px;
+}
+
+.tiltUp-right {
+  width: 40%;
+  color: rgb(162, 0, 255);
+  transform: rotate(-20deg);
+  padding: 10px;
+}
+
+.about-picture {
+  display: flex;
+  justify-content: center;
+}
+
+.about-picture img {
+  border-radius: 50%;
+  margin: auto;
+  max-width: 200px;
+  max-height: 200px;
+}

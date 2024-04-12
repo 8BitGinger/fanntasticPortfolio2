@@ -47,6 +47,10 @@
   scale: 0.9;
 }
 
+.spacer {
+  height: 50px;
+}
+
 @keyframes bg-animation {
   0% {
     background-position: left;

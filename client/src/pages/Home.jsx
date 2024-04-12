@@ -18,14 +18,6 @@ const Home = () => {
   return (
     <section className="homepage-container" id="home">
       <div className="home-page">
-        <motion.div
-          variants={fadeIn('down', 0)}
-          initial="hidden"
-          whileInView={'show'}
-          className="picture-box"
-        >
-          <img className="avatar" src={Image} alt="Avatar" />
-        </motion.div>
         <div className="home-intro">
           <motion.h1
             variants={fadeIn('up', 0.3)}
@@ -37,18 +29,24 @@ const Home = () => {
             Ryan Fann
           </motion.h1>
           <div className="intro-box">
-            <span className="intro-nickname">8BitGinger</span>
+            <span className="intro-nickname">the 8BitGinger</span>
             <br></br>
-            <span className="intro-desc">I am a</span>{' '}
+            <span className="intro-desc">I am </span>{' '}
             <TypeAnimation
               sequence={[
-                'Developer',
+                'a Developer',
                 2000,
-                'Designer',
+                'a Designer',
                 2000,
-                'Photographer',
+                'a Photographer',
                 2000,
-                'Creator',
+                'a Creator',
+                2000,
+                'an Artist',
+                2000,
+                'a Story-Teller',
+                2000,
+                'a Gamer',
                 2000,
               ]}
               speed={50}
@@ -75,6 +73,14 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <motion.div
+          variants={fadeIn('down', 0)}
+          initial="hidden"
+          whileInView={'show'}
+          className="picture-box"
+        >
+          <img className="avatar" src={Image} alt="Avatar" />
+        </motion.div>
       </div>
     </section>
   );
