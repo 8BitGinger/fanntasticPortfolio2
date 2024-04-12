@@ -10,6 +10,7 @@ import DevCard from '../components/DevCard';
 import '../assets/css/contact.css';
 
 const Contact = () => {
+  window.scrollTo(0, 0);
   const [state, handleSubmit, reset] = useForm('mjvnrreq');
 
   if (state.succeeded) {
@@ -29,7 +30,7 @@ const Contact = () => {
           variants={fadeIn('up', 0.9)}
           initial="hidden"
           whileInView={'show'}
-          viewport={{ once: false, amount: 0.7 }}
+          viewport={{ once: false, amount: 0.3 }}
           className="container"
         >
           <div className="contact-box">
@@ -37,6 +38,7 @@ const Contact = () => {
               <DevCard />
             </div>
             <div className="contact-form">
+              <h2>Contact Me</h2>
               <form id="contact-form" onSubmit={handleSubmit}>
                 <input
                   type="name"
@@ -78,6 +80,7 @@ const Contact = () => {
                   type="submit"
                   disabled={state.submitting}
                   onClick={reset}
+                  className="btn"
                 >
                   Send
                 </button>

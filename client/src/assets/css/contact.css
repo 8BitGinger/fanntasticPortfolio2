@@ -15,7 +15,7 @@
 }
 
 .contact-box {
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
 .dev-card img {
@@ -27,20 +27,18 @@
 
 .dev-name {
   font-size: 25px;
-  font-weight: bold;
+  font-weight: 900;
   color: rgba(255, 255, 255, 0.923);
-  font-family: 'Holtwood One SC', sans-serif;
 
   margin: 5px;
 }
 
 .dev-codename {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: bold;
-  color: rgb(254, 199, 123);
+  color: orange;
   margin: 0px 10px;
-
-  font-style: italic;
+  font-family: 'pixelify sans', sans-serif;
 }
 
 .dev-top {
@@ -126,6 +124,7 @@
   justify-self: center;
   margin: 10px auto;
   font-size: 15px;
+  font-family: 'orbitron', sans-serif;
 }
 
 .contact-form input:focus,
@@ -145,29 +144,6 @@
   font-size: 16px;
 }
 
-.contact-form button {
-  background: rgba(248, 156, 9, 0.763);
-  border: 1px solid dodgerblue;
-  border-radius: 50%;
-  padding: 5px;
-  margin: auto;
-  margin-top: 10px;
-  color: white;
-  font-size: 18px;
-  width: 70px;
-  height: 70px;
-  cursor: pointer;
-  text-align: center;
-}
-
-.contact-form button:active {
-  scale: 0.9;
-}
-
-.contact-form button:hover {
-  background-color: dodgerblue;
-}
-
 @media (min-width: 600px) {
   .contact-box {
     display: flex;
@@ -178,11 +154,36 @@
   }
 
   .dev-card {
+    height: 400px;
     margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .dev-overlay {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    align-items: center;
   }
 
   .contact-form {
     width: 400px;
     margin: auto;
+    height: 500px;
+  }
+
+  .small-para {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .contact-box {
+    height: 600px;
   }
 }
