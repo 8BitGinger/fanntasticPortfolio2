@@ -46,7 +46,7 @@ const About = () => {
               <br />
               <div className="tiltUp-left">Gaming</div>
 
-              <div className="tiltUp-right">Creation</div>
+              <div className="tiltUp-right">Creating</div>
             </div>
           </div>
         </div>

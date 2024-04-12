@@ -83,3 +83,13 @@
   max-width: 200px;
   max-height: 200px;
 }
+
+@media (min-width: 600px) {
+  .tilt-left,
+  .tilt-right,
+  .tiltUp-left,
+  .tiltUp-right,
+  .noTilt {
+    font-size: 40px;
+  }
+}

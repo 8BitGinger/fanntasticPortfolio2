@@ -11,7 +11,7 @@ import sound from '../assets/audio/rockNroll.mp3';
 const Home = () => {
   function play() {
     const song = new Audio(sound);
-    song.volume = 0.4;
+    song.volume = 0.3;
     song.play();
   }
 

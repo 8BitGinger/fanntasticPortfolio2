@@ -129,12 +129,16 @@
 
   .home-page img {
     display: block;
-    max-height: 300px;
+    max-height: 200px;
     animation: grow-and-shrink 8000ms;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     margin: auto;
     margin-top: 0px;
+  }
+
+  .intro-paragraph {
+    font-size: 20px;
   }
 
   .home-intro {
@@ -143,11 +147,11 @@
   }
 
   .home-name {
-    font-size: 80px;
+    font-size: 60px;
   }
 
   .intro-nickname {
-    font-size: 70px;
+    font-size: 50px;
   }
 
   .intro-desc {
