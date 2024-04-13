@@ -23,9 +23,9 @@ const Projects = () => {
         className="project-page"
         viewport={{ once: false, amount: 0.7 }}
       >
-        <div className="projects">
+        <article className="projects">
           <Project1 />
-        </div>
+        </article>
 
         <motion.button
           variants={fadeIn('up', 0.9)}

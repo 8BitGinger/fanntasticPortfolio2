@@ -4,12 +4,12 @@ import { fadeIn } from '../util/variants';
 
 const SkillList = () => {
   return (
-    <div className="skill-list">
+    <section className="skill-list">
       <h2>Key Skills</h2>
       {skills.map((service, index) => {
         const { name, level } = service;
         return (
-          <motion.div
+          <motion.article
             key={index}
             variants={fadeIn('up', 0.3)}
             initial="hidden"
@@ -42,10 +42,10 @@ const SkillList = () => {
                 ></motion.div>
               </div>
             )}
-          </motion.div>
+          </motion.article>
         );
       })}
-    </div>
+    </section>
   );
 };
 

@@ -2,7 +2,7 @@ import avatar from '../assets/images/about.png';
 
 const DevCard = () => {
   return (
-    <div className="dev-card">
+    <card className="dev-card">
       <div className="dev-overlay">
         <div className="dev-top">
           <img src={avatar} />
@@ -18,7 +18,7 @@ const DevCard = () => {
           <span>Let&apos;s build something great together!</span>
         </p>
       </div>
-    </div>
+    </card>
   );
 };
 

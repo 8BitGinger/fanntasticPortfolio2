@@ -1,20 +1,10 @@
-import { useState } from 'react';
-
-import { motion } from 'framer-motion';
-
-import { fadeIn } from '../../util/variants';
-import {
-  FaArrowAltCircleDown,
-  FaArrowAltCircleLeft,
-  FaArrowAltCircleRight,
-  FaGithub,
-} from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 
 import projectList from '../../util/projectList';
 
-function openModal(props) {
-  console.log('modal open');
-}
+// function openModal(props) {
+//   console.log('modal open');
+// }
 
 const Project1 = () => {
   return (

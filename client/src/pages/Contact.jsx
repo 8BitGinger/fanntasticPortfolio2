@@ -35,11 +35,11 @@ const Contact = () => {
           viewport={{ once: false, amount: 0.3 }}
           className="container"
         >
-          <div className="contact-box">
-            <div className="dev">
+          <section className="contact-box">
+            <article className="dev">
               <DevCard />
-            </div>
-            <div className="contact-form">
+            </article>
+            <article className="contact-form">
               <h2>Contact Me</h2>
               <form id="contact-form" onSubmit={handleSubmit}>
                 <input
@@ -87,8 +87,8 @@ const Contact = () => {
                   Send
                 </button>
               </form>
-            </div>
-          </div>
+            </article>
+          </section>
         </motion.div>
       </section>
     </>
