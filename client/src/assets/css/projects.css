@@ -5,7 +5,6 @@
   justify-content: center;
 
   width: 80%;
-  height: 100vh;
 
   margin: auto;
 }
@@ -30,8 +29,8 @@
 
 .project-box {
   overflow: hidden;
-  width: 250px;
-  height: 250px;
+  width: 249px;
+  height: 249px;
   position: relative;
 
   text-align: center;
@@ -54,7 +53,7 @@
 
 .project-box img {
   width: 160%;
-  height: 200%;
+  height: 180%;
   position: absolute;
   top: 0;
   left: 0;
@@ -218,6 +217,10 @@
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+  .project-box img {
+    width: 160%;
+    height: 200%;
   }
 }
 

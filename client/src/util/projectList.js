@@ -71,7 +71,7 @@ const link12 = 'https://8bitginger.github.io/quizzed/';
 const git12 = 'https://github.com/8BitGinger/quizzed';
 
 import img13 from '../assets/images/project-pics/ticTacTypescriptProject.jpg';
-const title13 = 'TicTacToe';
+const title13 = 'TicTacTypescript';
 const subtitle13 = 'Typescript';
 const link13 = 'https://tictactypscript-5cd5d0597c27.herokuapp.com/';
 const git13 = 'https://github.com/8BitGinger/tictactoe';
