@@ -21,6 +21,26 @@
   transition: background-position 1s;
   box-sizing: border-box;
   animation: bg-animation 80s infinite;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: orange;
+  border-radius: 8px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: dodgerblue;
 }
 
 .btn {

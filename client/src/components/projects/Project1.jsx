@@ -23,14 +23,7 @@ const Project1 = () => {
         const { name, img, title, subtitle, link, git } = project;
 
         return (
-          <motion.section
-            key={name}
-            variants={fadeIn('up', 0.3)}
-            initial="hidden"
-            whileInView={'show'}
-            className="project-box"
-            viewport={{ once: false, amount: 0.7 }}
-          >
+          <a key={name} className="project-box" href={link} target="_blank">
             <article className="project-card">
               <div className="title-row">
                 <span className="project-title">{title}</span>
@@ -41,17 +34,15 @@ const Project1 = () => {
                 <a className="icon" target="_blank" rel="noreferrer" href={git}>
                   <FaGithub />
                 </a>
-                <button
-                  className="openModal"
-                  onClick={() => openModal(project)}
-                >
-                  <h4>Open Project - </h4>
-                  <FaArrowAltCircleRight />
-                </button>
               </div>
             </article>
-            <img className="project-img" src={img} alt=" project screenshot" />
-          </motion.section>
+            <img
+              loading="lazy"
+              className="project-img"
+              src={img}
+              alt=" project screenshot"
+            />
+          </a>
         );
       })}
     </>

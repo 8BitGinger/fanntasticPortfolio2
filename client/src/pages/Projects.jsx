@@ -6,28 +6,39 @@ import '../assets/css/projects.css';
 import Project1 from '../components/projects/Project1';
 import backToTop from '../util/backToTop';
 
+function scrollPictures() {
+  const project = document.querySelector('.projects');
+  project.scrollTop += 272;
+}
+
 const Projects = () => {
   backToTop();
 
   return (
-    <section className="project-page">
-      <h2>Projects</h2>
-      <div className="projects">
-        <Project1 />
-      </div>
-
-      <motion.div
-        variants={fadeIn('up', 0.9)}
+    <>
+      <motion.section
+        variants={fadeIn('up', 0.3)}
         initial="hidden"
         whileInView={'show'}
-        viewport={{ once: false, amount: 0.3 }}
-        onClick={backToTop()}
+        className="project-page"
+        viewport={{ once: false, amount: 0.7 }}
       >
-        <button className="btn btn-top" onClick={() => backToTop()}>
-          Back to Top
-        </button>
-      </motion.div>
-    </section>
+        <div className="projects">
+          <Project1 />
+        </div>
+
+        <motion.button
+          variants={fadeIn('up', 0.9)}
+          initial="hidden"
+          whileInView={'show'}
+          className="scroll-pictures btn"
+          viewport={{ once: false, amount: 0.3 }}
+          onClick={scrollPictures}
+        >
+          Scroll
+        </motion.button>
+      </motion.section>
+    </>
   );
 };
 
