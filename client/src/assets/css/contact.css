@@ -12,6 +12,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  font-family: 'aldich', sans-serif;
 }
 
 .contact-box {
@@ -61,15 +62,19 @@
 }
 
 .small-para {
-  font-size: 18px;
+  font-size: 20px;
   color: white;
   margin: 20px auto;
 }
 
 .small-para span {
+  background: linear-gradient(45deg, orange, white, dodgerblue);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 22px;
+  margin: 15px auto;
   font-style: italic;
-
-  margin: auto;
 }
 
 .dev-overlay {
@@ -77,7 +82,7 @@
   border: 1px double rgba(126, 124, 124, 0.28);
 
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-  padding: 10px 20px;
+  padding: 10px 15px;
   border-radius: 15px;
 }
 
@@ -127,6 +132,15 @@
   font-family: 'orbitron', sans-serif;
 }
 
+.contact-form h2 {
+  background: linear-gradient(45deg, orange, white, dodgerblue);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 40px;
+  margin: 15px auto;
+}
+
 .contact-form input:focus,
 .contact-form textarea:focus {
   border: none;
@@ -144,7 +158,11 @@
   font-size: 16px;
 }
 
-@media (min-width: 600px) {
+.contact {
+  margin-top: 50px;
+}
+
+@media (min-width: 900px) {
   .contact-box {
     display: flex;
     flex-direction: row;
@@ -181,12 +199,6 @@
     align-items: center;
     flex-direction: column;
     margin: auto;
-  }
-  .intro-btns {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
   }
 
   .contact-box {

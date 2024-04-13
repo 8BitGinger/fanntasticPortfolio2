@@ -20,15 +20,11 @@ const skills = [
     value: 50,
   },
   {
-    name: 'MySQL',
+    name: 'MySQL & Sequelize',
     level: 'Beginner',
     value: 25,
   },
-  {
-    name: 'Sequelize',
-    level: 'Beginner',
-    value: 25,
-  },
+
   {
     name: 'APIs',
     level: 'Intermediate',
@@ -57,26 +53,6 @@ const skills = [
 
   {
     name: 'Bootstrap',
-    level: 'Beginner',
-    value: 25,
-  },
-  {
-    name: 'Apollo',
-    level: 'Beginner',
-    value: 25,
-  },
-  {
-    name: 'MongoDB',
-    level: 'Intermediate',
-    value: 50,
-  },
-  {
-    name: 'Redux',
-    level: 'Beginner',
-    value: 25,
-  },
-  {
-    name: 'GraphQL',
     level: 'Beginner',
     value: 25,
   },

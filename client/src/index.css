@@ -10,6 +10,7 @@
   color: rgba(255, 255, 255, 0.87);
   background: url(./assets/images/background.png);
   background-position: left;
+
   background-size: cover;
 
   background-repeat: no-repeat;
@@ -31,7 +32,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  max-width: 40%;
+
   font-family: 'orbitron', sans-serif;
   background-position: left;
   background-size: 300%;
@@ -62,5 +63,28 @@
 
   100% {
     background-position: left;
+  }
+}
+
+@keyframes bg-animation-alt {
+  0% {
+    background-position: bottom;
+  }
+
+  50% {
+    background-position: top;
+  }
+
+  100% {
+    background-position: bottom;
+  }
+}
+
+@media (min-width: 900px) {
+  :root {
+    background-size: 400%;
+    min-height: fit-content;
+    margin: 0;
+    padding: 0;
   }
 }

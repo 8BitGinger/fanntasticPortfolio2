@@ -7,8 +7,11 @@ import { fadeIn } from '../util/variants';
 import Spacer from '../components/Spacer';
 
 import '../assets/css/about.css';
+import backToTop from '../util/backToTop';
 
 const About = () => {
+  backToTop();
+
   return (
     <section className="about-page-container">
       <Spacer />

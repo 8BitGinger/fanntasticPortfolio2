@@ -55,9 +55,10 @@
 
 .nav-link {
   margin: auto 3px;
-  font-size: 20px;
+  font-size: 22px;
   padding: 5px;
-  color: white;
+  color: rgba(0, 0, 0, 0.765);
+
   text-decoration: none;
   width: 40px;
   height: 40px;
@@ -96,7 +97,7 @@
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 900px) {
   .nav-link {
     width: 60px;
     height: 60px;
@@ -118,6 +119,7 @@
 
   .nav-link:hover {
     background-position: right;
+    color: gray;
   }
 
   .nav-bar {

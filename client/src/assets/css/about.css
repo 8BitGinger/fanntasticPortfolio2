@@ -9,6 +9,10 @@
   margin: auto;
 }
 
+.about-text p {
+  font-family: 'aldich', sans-serif;
+}
+
 .about-text {
   font-size: 20px;
   color: white;
@@ -16,9 +20,14 @@
 }
 
 .about-text h2 {
-  font-size: 30px;
-  color: orange;
-  width: 100%;
+  background: linear-gradient(45deg, orange, white, dodgerblue);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-size: 40px;
+  margin: 15px auto;
+
+  width: fit-content;
 }
 
 .hobbies {
@@ -37,8 +46,10 @@
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
+  margin-top: 25px;
   width: 100%;
   font-size: 25px;
+  font-family: 'aldrich', sans-serif;
 }
 
 .noTilt {
@@ -91,5 +102,11 @@
   .tiltUp-right,
   .noTilt {
     font-size: 40px;
+  }
+}
+
+@media (min-width: 700px) {
+  .about-text p {
+    font-size: 25px;
   }
 }

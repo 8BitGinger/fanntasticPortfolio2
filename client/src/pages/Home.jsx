@@ -7,8 +7,11 @@ import { Link } from 'react-router-dom';
 import { fadeIn } from '../util/variants';
 import '../assets/css/home.css';
 import sound from '../assets/audio/rockNroll.mp3';
+import backToTop from '../util/backToTop';
 
 const Home = () => {
+  backToTop();
+
   function play() {
     const song = new Audio(sound);
     song.volume = 0.3;

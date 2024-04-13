@@ -8,9 +8,11 @@ import { fadeIn } from '../util/variants';
 import DevCard from '../components/DevCard';
 
 import '../assets/css/contact.css';
+import backToTop from '../util/backToTop';
 
 const Contact = () => {
-  window.scrollTo(0, 0);
+  backToTop();
+
   const [state, handleSubmit, reset] = useForm('mjvnrreq');
 
   if (state.succeeded) {

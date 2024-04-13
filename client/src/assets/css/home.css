@@ -65,11 +65,12 @@
 
 .intro-paragraph {
   text-align: center;
+  font-family: 'aldrich', sans-serif;
 }
 
 .intro-btn1,
 .intro-btn2 {
-  margin: 10px;
+  margin: 10px 5px;
   padding: 10px 20px;
   font-size: 14px;
   background: linear-gradient(
@@ -82,7 +83,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  max-width: 40%;
+
   font-family: 'orbitron', sans-serif;
   background-position: left;
   background-size: 300%;
@@ -119,7 +120,7 @@
   }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 950px) {
   .home-page {
     width: 70%;
     display: flex;
