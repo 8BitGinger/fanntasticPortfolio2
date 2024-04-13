@@ -11,6 +11,13 @@
   margin: 15px auto;
 }
 
+.btn-resume {
+  min-width: 200px;
+  min-height: 200px;
+  font-size: 25px;
+  margin: 0px auto;
+}
+
 .skill p {
   font-size: 20px;
 }
@@ -20,6 +27,22 @@
   height: fit-content;
   margin-left: 35px;
   margin-top: 20px;
+}
+
+.resume-icon {
+  animation: rock-back 5s linear infinite;
+  opacity: 0.8;
+}
+
+.resume-icon-alt {
+  opacity: 0.8;
+  animation: rock-back-reverse 5s linear infinite;
+}
+
+.resume-icon,
+.resume-icon-alt {
+  width: 200px;
+  margin: 30px auto;
 }
 
 .skill-list {
@@ -50,12 +73,33 @@
   }
 }
 
+@keyframes spin-reverse {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
 @keyframes rock-back {
   0% {
     transform: rotate(0deg);
   }
   50% {
     transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes rock-back-reverse {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-10deg);
   }
   100% {
     transform: rotate(0deg);
@@ -90,10 +134,5 @@
   }
 
   .services {
-  }
-
-  .graphic-box img {
-    max-width: 300px;
-    animation: rock-back 5s linear infinite;
   }
 }

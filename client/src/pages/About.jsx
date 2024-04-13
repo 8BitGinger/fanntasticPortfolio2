@@ -28,7 +28,7 @@ const About = () => {
         <div className="about-text">
           <h2>About Me.</h2>
           <div className="para-1">
-            <img src={legoAvatar} alt="lego headshot" />
+            <img loading="lazy" src={legoAvatar} alt="lego headshot" />
             <p className="about-1">
               Forget Legos, websites are my building blocks! I craft beautiful
               and modern front ends using HTML5, CSS, and JavaScript, sometimes
@@ -60,7 +60,7 @@ const About = () => {
               meticulously crafted playlists on Apple Music, and when I need a
               dose of nostalgia, I love streaming classic sci-fi shows.
             </p>
-            <img src={beachUs} alt="us at the beach" />
+            <img loading="lazy" src={beachUs} alt="us at the beach" />
           </div>
           {/* <div className="hobbies">
             <div className="word">

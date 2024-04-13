@@ -39,17 +39,19 @@ const Home = () => {
               sequence={[
                 'a Developer',
                 2000,
+                'a Creator',
+                2000,
                 'a Designer',
                 2000,
                 'a Photographer',
                 2000,
-                'a Creator',
+                'a Writer',
                 2000,
                 'an Artist',
                 2000,
                 'a Story-Teller',
                 2000,
-                'a Gamer',
+                'a Game Master',
                 2000,
               ]}
               speed={50}
@@ -82,7 +84,7 @@ const Home = () => {
           whileInView={'show'}
           className="picture-box"
         >
-          <img className="avatar" src={Image} alt="Avatar" />
+          <img loading="lazy" className="avatar" src={Image} alt="Avatar" />
         </motion.div>
       </div>
     </section>
