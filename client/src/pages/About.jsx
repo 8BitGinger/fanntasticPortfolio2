@@ -8,6 +8,8 @@ import Spacer from '../components/Spacer';
 
 import '../assets/css/about.css';
 import backToTop from '../util/backToTop';
+import legoAvatar from '../assets/images/lego-avatar.jpg';
+import beachUs from '../assets/images/beachUs.jpg';
 
 const About = () => {
   backToTop();
@@ -16,7 +18,7 @@ const About = () => {
     <section className="about-page-container">
       <Spacer />
       <motion.div
-        variants={fadeIn('right', 0.3)}
+        variants={fadeIn('right', 0.5)}
         initial="hidden"
         whileInView={'show'}
         viewport={{ once: false, amount: 0.3 }}
@@ -25,21 +27,42 @@ const About = () => {
       >
         <div className="about-text">
           <h2>About Me.</h2>
-          <p className="about-1">
-            In a nutshell, I can build a website from the ground up using HTML5,
-            CSS, JavaScript, and sometimes React for a beautiful and modern
-            Front End. I also have experience with Node, Express, Next.js, and
-            MySQL, just to name a few, to create and manage an efficient
-            Back-End.
-          </p>
-          <p className="about-2">
-            When I&apos;m not coding I love to spend time with my amazing
-            girlfriend Adrian and our awesome Pets. I enjoy playing video games
-            on my Xbox, Vibing to some new Music, and streaming my favorite
-            classic Sci-Fi shows!
-          </p>
+          <div className="para-1">
+            <img src={legoAvatar} alt="lego headshot" />
+            <p className="about-1">
+              Forget Legos, websites are my building blocks! I craft beautiful
+              and modern front ends using HTML5, CSS, and JavaScript, sometimes
+              even throwing React into the mix. But my skills extend beyond the
+              &apos;n Node.js, Express, Next.js, and MySQL, allowing me to
+              design and manage efficient back ends that make websites tick.
+            </p>
+          </div>
+        </div>
+      </motion.div>
+
+      <motion.div
+        variants={fadeIn('left', 0.5)}
+        initial="hidden"
+        whileInView={'show'}
+        viewport={{ once: false, amount: 0.3 }}
+        className="about-container"
+        id="about"
+      >
+        <div className="about-text">
           <h2>Hobbies and Interests</h2>
-          <div className="hobbies">
+          <div className="para-2">
+            <p className="about-2">
+              Outside the world of code, I unwind with my fantastic girlfriend,
+              Adrian, and our awesome furry &amp; feathery companions. When I
+              need a coding detox, you might find me conquering virtual worlds
+              on my Xbox or delving into fantastical tales with friends through
+              tabletop RPGs. I&apos;m often vibin&apos; to one of my
+              meticulously crafted playlists on Apple Music, and when I need a
+              dose of nostalgia, I love streaming classic sci-fi shows.
+            </p>
+            <img src={beachUs} alt="us at the beach" />
+          </div>
+          {/* <div className="hobbies">
             <div className="word">
               <div className="tilt-left">Photography</div>
 
@@ -51,7 +74,7 @@ const About = () => {
 
               <div className="tiltUp-right">Creating</div>
             </div>
-          </div>
+          </div> */}
         </div>
       </motion.div>
       <motion.div

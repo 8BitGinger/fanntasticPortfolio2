@@ -17,7 +17,7 @@ const Projects = () => {
   return (
     <>
       <motion.section
-        variants={fadeIn('up', 0.3)}
+        variants={fadeIn('right', 0.3)}
         initial="hidden"
         whileInView={'show'}
         className="project-page"
