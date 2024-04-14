@@ -108,3 +108,9 @@
     padding: 0;
   }
 }
+
+@media (min-width: 1500px) {
+  :root {
+    background-size: 450%;
+  }
+}

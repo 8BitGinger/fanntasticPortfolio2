@@ -36,9 +36,6 @@ const Contact = () => {
           className="container"
         >
           <section className="contact-box">
-            <article className="dev">
-              <DevCard />
-            </article>
             <article className="contact-form">
               <h2>Contact Me</h2>
               <form id="contact-form" onSubmit={handleSubmit}>
@@ -87,6 +84,9 @@ const Contact = () => {
                   Send
                 </button>
               </form>
+            </article>
+            <article className="dev">
+              <DevCard />
             </article>
           </section>
         </motion.div>

@@ -2,9 +2,12 @@ import { motion } from 'framer-motion';
 
 import { fadeIn } from '../util/variants';
 
+import '../assets/css/weather.css';
 import '../assets/css/projects.css';
 import Project1 from '../components/projects/Project1';
 import backToTop from '../util/backToTop';
+import ProjectOverlay from '../components/ProjectOverlay';
+import WeatherCard from '../components/WeatherCard';
 
 function scrollPictures() {
   const project = document.querySelector('.projects');
@@ -38,6 +41,9 @@ const Projects = () => {
           Scroll
         </motion.button>
       </motion.section>
+      {/* <WeatherCard /> */}
+
+      <ProjectOverlay />
     </>
   );
 };

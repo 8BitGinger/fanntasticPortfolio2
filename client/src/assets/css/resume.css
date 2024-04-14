@@ -2,20 +2,19 @@
   font-size: 20px;
 }
 
-.skill-list h2 {
+.resume-title {
   background: linear-gradient(45deg, orange, white, dodgerblue);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
   font-size: 40px;
-  margin: 15px auto;
+  margin: auto;
+  margin-top: 35px;
+  text-align: center;
 }
 
 .btn-resume {
-  min-width: 200px;
-  min-height: 200px;
-  font-size: 25px;
-  margin: 0px auto;
+  margin: 0px !important;
 }
 
 .skill p {
@@ -41,7 +40,7 @@
 
 .resume-icon,
 .resume-icon-alt {
-  width: 200px;
+  width: 100px;
   margin: 30px auto;
 }
 

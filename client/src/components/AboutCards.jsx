@@ -9,15 +9,15 @@ const AboutCards = () => {
   return (
     <>
       <motion.article
-        variants={fadeIn('right', 0.5)}
+        variants={fadeIn('up', 0.5)}
         initial="hidden"
         whileInView={'show'}
         viewport={{ once: false, amount: 0.3 }}
         className="about-container"
         id="about"
       >
+        <h2>About Me.</h2>
         <div className="about-text">
-          <h2>About Me.</h2>
           <div className="para-1">
             <img loading="lazy" src={legoAvatar} alt="lego headshot" />
             <p className="about-1">
@@ -32,15 +32,15 @@ const AboutCards = () => {
       </motion.article>
 
       <motion.article
-        variants={fadeIn('left', 0.5)}
+        variants={fadeIn('up', 0.5)}
         initial="hidden"
         whileInView={'show'}
         viewport={{ once: false, amount: 0.3 }}
         className="about-container"
         id="about"
       >
+        <h2>Hobbies and Interests</h2>
         <div className="about-text">
-          <h2>Hobbies and Interests</h2>
           <div className="para-2">
             <p className="about-2">
               Outside the world of code, I unwind with my fantastic girlfriend,
