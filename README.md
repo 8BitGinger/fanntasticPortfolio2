@@ -3,9 +3,7 @@
 
 # Web Developer - React Portfolio
 
-<div align="center">
-
-![8BitLogo](./client/src/assets/images/readMe/8bit-smallContact.png)
+![screenshot](./client/src/assets/images/readMe/screenshot-fanntasticportfolio.png)
 
 ## Ryan J. Fann _8BitGinger_
 
@@ -33,15 +31,19 @@ Welcome to my portfolio, a showcase of my web development journey! This React-bu
 
 ## Screenshots
 
-![screenshot](./client/src/assets/images/readMe/screenshot-fanntasticportfolio.png)
+![screenshot](./client/src/assets/images/readMe/screenshot-fanntasticportfolio4.png)
+
+<details closed>
+<summary>Click Here to see more!</summary>
+<br>
 
 ![screenshot](./client/src/assets/images/readMe/screenshot-fanntasticportfolio2.png)
 
 ![screenshot](./client/src/assets/images/readMe/screenshot-fanntasticportfolio3.png)
 
-![screenshot](./client/src/assets/images/readMe/screenshot-fanntasticportfolio4.png)
-
 ![screenshot](./client/src/assets/images/readMe/screenshot-fanntasticportfolio5.png)
+
+</details>
 
 ---
 
@@ -57,13 +59,9 @@ Welcome to my portfolio, a showcase of my web development journey! This React-bu
 
 ## Links
 
-### Repo Link:
+### Repo Link:[![Repo](./client/src/assets/images/readMe/github-ReadMe.png)](https://github.com/8BitGinger/fanntasticPortfolio2)
 
-[GitHub Repo](https://github.com/8BitGinger/fanntasticPortfolio2)
-
-### Deployed Link:
-
-[Portfolio](https://ryanfann.netlify.app/)
+### Deployed Link:[![Deployed Link](./client/src/assets/images/readMe/8bit-smallContact.png)](https://ryanfann.netlify.app/)
 
 <a id="support"></a>
 
