@@ -26,12 +26,7 @@ const Project1 = () => {
                 </a>
               </div>
             </article>
-            <img
-              loading="lazy"
-              className="project-img"
-              src={img}
-              alt=" project screenshot"
-            />
+            <img className="project-img" src={img} alt=" project screenshot" />
           </a>
         );
       })}
