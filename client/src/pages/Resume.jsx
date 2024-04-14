@@ -11,8 +11,10 @@ const Resume = () => {
 
   return (
     <>
+      <Spacer />
+
+      <h2 className="resume-title">Key Skills</h2>
       <section id="skills" className="skills">
-        <Spacer />
         <SkillList />
         <ResumeGraphic />
       </section>

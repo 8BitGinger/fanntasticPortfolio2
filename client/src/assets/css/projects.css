@@ -157,6 +157,10 @@
   margin: 15px auto;
 }
 
+.project-overlay {
+  display: none;
+}
+
 .subtitle-link {
   font-family: 'aldrich', sans-serif;
 }
@@ -238,6 +242,38 @@
 
 @media (min-width: 1000px) {
   :root {
-    background-size: 400%;
+    background-size: 500%;
+  }
+
+  .project-overlay {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    z-index: -1;
+  }
+
+  .scroll-title-tilt {
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: auto;
+    margin: 50px auto;
+    width: 500px;
+    height: 440px;
+    max-height: 80vh;
+    margin-bottom: 50px;
+    overflow: auto;
+    font-size: 25px;
+    transform: rotate(45deg);
   }
 }

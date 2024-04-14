@@ -4,9 +4,10 @@
   justify-content: center;
   align-items: center;
 
-  padding: 10px;
+  padding: 20px;
   width: 80%;
-  margin: auto;
+
+  margin: 50px auto;
 }
 
 .about-text p {
@@ -17,9 +18,15 @@
   font-size: 20px;
   color: white;
   text-align: center;
+  background-color: rgba(21, 203, 244, 0.182);
+  border: 1px double rgba(126, 124, 124, 0.28);
+
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  padding: 15px 20px;
+  border-radius: 15px;
 }
 
-.about-text h2 {
+.about-container h2 {
   background: linear-gradient(45deg, orange, white, dodgerblue);
   color: transparent;
   background-clip: text;

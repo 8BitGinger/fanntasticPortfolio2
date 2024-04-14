@@ -5,7 +5,6 @@ import { fadeIn } from '../util/variants';
 const SkillList = () => {
   return (
     <section className="skill-list">
-      <h2>Key Skills</h2>
       {skills.map((service, index) => {
         const { name, level } = service;
         return (

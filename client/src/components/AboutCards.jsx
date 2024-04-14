@@ -16,8 +16,8 @@ const AboutCards = () => {
         className="about-container"
         id="about"
       >
+        <h2>About Me.</h2>
         <div className="about-text">
-          <h2>About Me.</h2>
           <div className="para-1">
             <img loading="lazy" src={legoAvatar} alt="lego headshot" />
             <p className="about-1">
@@ -39,8 +39,8 @@ const AboutCards = () => {
         className="about-container"
         id="about"
       >
+        <h2>Hobbies and Interests</h2>
         <div className="about-text">
-          <h2>Hobbies and Interests</h2>
           <div className="para-2">
             <p className="about-2">
               Outside the world of code, I unwind with my fantastic girlfriend,
