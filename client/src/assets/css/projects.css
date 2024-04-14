@@ -276,4 +276,9 @@
     font-size: 25px;
     transform: rotate(45deg);
   }
+
+  .scroll-title-tilt a {
+    z-index: 3;
+    cursor: pointer;
+  }
 }

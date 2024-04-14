@@ -55,12 +55,24 @@
 }
 
 .skill-level {
-  background-color: orange;
+  background: linear-gradient(45deg, orange, orange, rgb(152, 207, 237));
   height: 10px;
+  animation: loading 5s 1;
+  border-radius: 3px;
 }
 
 .graphic-box {
   display: none;
+}
+
+@keyframes loading {
+  0% {
+    background-size: 1%;
+  }
+
+  100% {
+    background-size: 100%;
+  }
 }
 
 @keyframes spin {

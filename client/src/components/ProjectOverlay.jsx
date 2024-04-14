@@ -4,6 +4,7 @@ import {
   FaArrowAltCircleUp,
   FaGlobe,
 } from 'react-icons/fa';
+import Projects from '../pages/Projects';
 
 const ProjectOverlay = () => {
   return (
