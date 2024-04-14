@@ -9,7 +9,7 @@ const AboutCards = () => {
   return (
     <>
       <motion.article
-        variants={fadeIn('right', 0.5)}
+        variants={fadeIn('up', 0.5)}
         initial="hidden"
         whileInView={'show'}
         viewport={{ once: false, amount: 0.3 }}
@@ -32,7 +32,7 @@ const AboutCards = () => {
       </motion.article>
 
       <motion.article
-        variants={fadeIn('left', 0.5)}
+        variants={fadeIn('up', 0.5)}
         initial="hidden"
         whileInView={'show'}
         viewport={{ once: false, amount: 0.3 }}
