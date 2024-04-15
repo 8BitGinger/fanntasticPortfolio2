@@ -22,10 +22,10 @@ const AboutCards = () => {
             <img loading="lazy" src={legoAvatar} alt="lego headshot" />
             <p className="about-1">
               Forget Legos, websites are my building blocks! I craft beautiful
-              and modern front ends using HTML5, CSS, and JavaScript, sometimes
-              even throwing React into the mix. But my skills extend beyond the
-              &apos;n Node.js, Express, Next.js, and MySQL, allowing me to
-              design and manage efficient back ends that make websites tick.
+              and modern front ends using HTML5, CSS, and JavaScript, lately
+              throwing React into the mix. I also have mastery over Node.js,
+              Express, Next.js, and MySQL, to name a few, allowing me to design
+              and manage an efficient back ends that makes those websites tick.
             </p>
           </div>
         </div>
