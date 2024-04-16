@@ -52,11 +52,11 @@ const subtitle9 = 'jQuery, 3rd-Party APIs';
 const link9 = 'https://jameslwilson364.github.io/weeklyMoodal/';
 const git9 = 'https://github.com/jameslwilson364/weeklyMoodal';
 
-import img10 from '../assets/images/project-pics/casinoSlotProject.jpg';
-const title10 = 'Casino Slots';
-const subtitle10 = 'JS, Sass';
-const link10 = 'https://8bitginger.github.io/casinoSlot/';
-const git10 = 'https://github.com/8BitGinger/casinoSlot';
+import img10 from '../assets/images/project-pics/desktopCleanerProject.jpg';
+const title10 = 'Desktop Cleaner';
+const subtitle10 = 'Python';
+const link10 = 'https://8bitginger.github.io/desktopCleaner/';
+const git10 = 'https://github.com/8BitGinger/desktopCleaner';
 
 import img11 from '../assets/images/project-pics/aiGenProject.jpg';
 const title11 = 'AI Image Generator';
@@ -70,11 +70,11 @@ const subtitle12 = 'Vanilla JS';
 const link12 = 'https://8bitginger.github.io/quizzed/';
 const git12 = 'https://github.com/8BitGinger/quizzed';
 
-import img13 from '../assets/images/project-pics/ticTacTypescriptProject.jpg';
-const title13 = 'TicTacTypescript';
-const subtitle13 = 'Typescript';
-const link13 = 'https://tictactypscript-5cd5d0597c27.herokuapp.com/';
-const git13 = 'https://github.com/8BitGinger/tictactoe';
+import img13 from '../assets/images/project-pics/casinoSlotProject.jpg';
+const title13 = 'Casino Slots';
+const subtitle13 = 'JS, Sass';
+const link13 = 'https://8bitginger.github.io/casinoSlot/';
+const git13 = 'https://github.com/8BitGinger/casinoSlot';
 
 import img14 from '../assets/images/project-pics/nodeSlotsProject.jpg';
 const title14 = 'Node Slots';
@@ -93,6 +93,18 @@ const title16 = 'Password Gen';
 const subtitle16 = 'JavaScript Logic';
 const link16 = 'https://8bitginger.github.io/passwordGenerator/';
 const git16 = 'https://github.com/8BitGinger/passwordGenerator';
+
+import img17 from '../assets/images/project-pics/ticTacTypescriptProject.jpg';
+const title17 = 'TicTacTypescript';
+const subtitle17 = 'Typescript';
+const link17 = 'https://tictactypscript-5cd5d0597c27.herokuapp.com/';
+const git17 = 'https://github.com/8BitGinger/tictactoe';
+
+import imgX from '../assets/images/project-pics/constructionProject.jpg';
+const titleX = 'Future Project';
+const subtitleX = 'Coming Soon';
+const linkX = '';
+const gitX = '';
 
 const projectList = [
   {
@@ -223,6 +235,22 @@ const projectList = [
     subtitle: subtitle16,
     link: link16,
     git: git16,
+  },
+  {
+    name: 'project-17',
+    img: img17,
+    title: title17,
+    subtitle: subtitle17,
+    link: link17,
+    git: git17,
+  },
+  {
+    name: 'projectX',
+    img: imgX,
+    title: titleX,
+    subtitle: subtitleX,
+    link: linkX,
+    git: gitX,
   },
 ];
 
