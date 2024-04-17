@@ -100,6 +100,12 @@ const subtitle17 = 'Typescript';
 const link17 = 'https://tictactypscript-5cd5d0597c27.herokuapp.com/';
 const git17 = 'https://github.com/8BitGinger/tictactoe';
 
+import img18 from '../assets/images/project-pics/citrusProject.jpg';
+const title18 = 'Citrus Photo Converter';
+const subtitle18 = 'Python';
+const link18 = 'https://8bitginger.github.io/citrus/';
+const git18 = 'https://github.com/8BitGinger/citrus';
+
 import imgX from '../assets/images/project-pics/constructionProject.jpg';
 const titleX = 'Future Project';
 const subtitleX = 'Coming Soon';
@@ -245,12 +251,12 @@ const projectList = [
     git: git17,
   },
   {
-    name: 'projectX',
-    img: imgX,
-    title: titleX,
-    subtitle: subtitleX,
-    link: linkX,
-    git: gitX,
+    name: 'project-18',
+    img: img18,
+    title: title18,
+    subtitle: subtitle18,
+    link: link18,
+    git: git18,
   },
 ];
 
