@@ -15,6 +15,11 @@ const skills = [
     value: 75,
   },
   {
+    name: 'Python',
+    level: 'Beginner',
+    value: 25,
+  },
+  {
     name: 'React',
     level: 'Intermediate',
     value: 75,

@@ -25,7 +25,7 @@ const AboutCards = () => {
               and modern front ends using HTML5, CSS, and JavaScript, lately
               throwing React into the mix. I also have mastery over Node.js,
               Express, Next.js, and MySQL, to name a few, allowing me to design
-              and manage an efficient back ends that makes those websites tick.
+              and manage an efficient back end that makes those websites tick.
             </p>
           </div>
         </div>
