@@ -31,17 +31,17 @@ Welcome to my portfolio, a showcase of my web development journey! This React-bu
 
 ## Screenshots
 
-![screenshot](./client/src/assets/images/readMe/screenshot-fanntasticportfolio4.png)
+![screenshot](./client/src/assets/images/readMe/projects.jpg)
 
 <details closed>
 <summary>Click Here to see more!</summary>
 <br>
 
-![screenshot](./client/src/assets/images/readMe/screenshot-fanntasticportfolio2.png)
+![screenshot](./client/src/assets/images/readMe/portfolioAboutMe.jpg)
 
-![screenshot](./client/src/assets/images/readMe/screenshot-fanntasticportfolio3.png)
+![screenshot](./client/src/assets/images/readMe/portfolioKeySkills.jpg)
 
-![screenshot](./client/src/assets/images/readMe/screenshot-fanntasticportfolio5.png)
+![screenshot](./client/src/assets/images/readMe/contactPage.jpg)
 
 </details>
 
@@ -73,10 +73,11 @@ Welcome to my portfolio, a showcase of my web development journey! This React-bu
 
 <div align="center">
 
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)]()
 [![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
 [![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)]()
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)]()
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)]()
+[![Framer](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue)]()
 [![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)]()
 [![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)]()
 ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
@@ -109,7 +110,7 @@ Reach out for Questions or Support here:
 
 [![Gmail](https://img.shields.io/badge/Gmail-EA4335.svg?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:ryan.fann@gmail.com)
 [![8BitGinger](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/8BitGinger)
-[![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://twitter.com/the8bitginger)
+[![Twitter](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://twitter.com/the8bitginger)
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ryanfanntastic/)
 [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://www.discord.com/users/wellthatsweird18964)
 
