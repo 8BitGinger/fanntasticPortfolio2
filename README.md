@@ -3,7 +3,7 @@
 
 # Web Developer - React Portfolio
 
-![screenshot](./client/src/assets/images/readMe/screenshot-fanntasticportfolio.png)
+![screenshot](./client/src/assets/images/readMe/readMeMain.png)
 
 ## Ryan J. Fann _8BitGinger_
 
@@ -36,6 +36,8 @@ Welcome to my portfolio, a showcase of my web development journey! This React-bu
 <details closed>
 <summary>Click Here to see more!</summary>
 <br>
+
+![screenshot](./client/src/assets/images/readMe/screenshot-fanntasticportfolio.png)
 
 ![screenshot](./client/src/assets/images/readMe/portfolioAboutMe.jpg)
 
@@ -80,7 +82,8 @@ Welcome to my portfolio, a showcase of my web development journey! This React-bu
 [![Framer](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue)]()
 [![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)]()
 [![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)]()
-![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
+[![Formspree](https://img.shields.io/static/v1?label=&message=Formspree&color=%23E5122E&style=for-the-badge&logo=Formspree&logoColor=white)](https://)
+[![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)]()
 
 ```
 
