@@ -9,6 +9,7 @@ import DevCard from '../components/DevCard';
 
 import '../assets/css/contact.css';
 import backToTop from '../util/backToTop';
+import buildPic from '../assets/images/buildPic.png';
 
 const Contact = () => {
   backToTop();
@@ -86,7 +87,7 @@ const Contact = () => {
               </form>
             </article>
             <article className="dev">
-              <DevCard />
+              <img src={buildPic} alt="me holding sign in build gear" />
             </article>
           </section>
         </motion.div>
