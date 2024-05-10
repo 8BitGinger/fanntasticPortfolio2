@@ -70,13 +70,13 @@
 
 .intro-btn1,
 .intro-btn2 {
-  margin: 10px 5px;
-  padding: 10px 20px;
-  font-size: 14px;
+  margin: 5px 10px;
+  padding: 5px 10px;
+  font-size: 18px !important;
   background: linear-gradient(
     45deg,
     rgb(255, 166, 0),
-    rgba(255, 255, 255, 0.55),
+    rgba(255, 255, 255, 0.739),
     rgb(30, 143, 255)
   );
   color: black;
@@ -101,6 +101,31 @@
   scale: 0.9;
 }
 
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  align-items: center;
+  width: fit-content;
+  background-color: rgba(21, 203, 244, 0.182);
+  border: 1px double rgba(126, 124, 124, 0.28);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+.social a {
+  margin: auto 10px;
+  margin-top: 5px;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+}
+
+.social a:hover {
+  color: rgb(255, 166, 0);
+}
+
 @keyframes grow-and-shrink {
   0% {
     transform: scale(1.4);
@@ -121,6 +146,35 @@
 }
 
 @media (min-width: 950px) {
+  .social {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    width: fit-content;
+    background-color: rgba(21, 203, 244, 0.182);
+    border: 1px double rgba(126, 124, 124, 0.28);
+
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 65px;
+  }
+
+  .social a {
+    margin: auto 10px;
+    margin-top: 5px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+  }
+
+  .social a:hover {
+    color: rgb(255, 166, 0);
+  }
+
   .home-page {
     width: 70%;
     display: flex;

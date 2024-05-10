@@ -37,7 +37,7 @@ Welcome to my portfolio, a showcase of my web development journey! This React-bu
 <summary>Click Here to see more!</summary>
 <br>
 
-![screenshot](./client/src/assets/images/readMe/screenshot-fanntasticportfolio.png)
+![screenshot](./client/src/assets/images/readMe/mainScreenshot.jpg)
 
 ![screenshot](./client/src/assets/images/readMe/portfolioAboutMe.jpg)
 
