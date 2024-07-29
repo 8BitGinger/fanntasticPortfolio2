@@ -85,7 +85,7 @@ const git14 = 'https://github.com/8BitGinger/nodeslots';
 import img15 from '../assets/images/project-pics/myCalProject.jpg';
 const title15 = 'myCal';
 const subtitle15 = 'Dynamic Date, Local Storage';
-const link15 = 'https://tictactypscript-5cd5d0597c27.herokuapp.com/';
+const link15 = 'https://8bitginger.github.io/myCal/';
 const git15 = 'https://github.com/8BitGinger/tictactoe';
 
 import img16 from '../assets/images/project-pics/quizzedProject.jpg';
