@@ -68,9 +68,16 @@
   font-family: 'aldrich', sans-serif;
 }
 
+.intro-btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .intro-btn1,
 .intro-btn2 {
-  margin: 5px 10px;
+  margin: 5px auto;
   padding: 5px 10px;
   font-size: 18px !important;
   background: linear-gradient(
@@ -83,7 +90,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-
+  font-weight: 600;
   font-family: 'orbitron', sans-serif;
   background-position: left;
   background-size: 300%;
@@ -161,7 +168,7 @@
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
     padding: 10px;
     border-radius: 50px;
-    margin-right: 65px;
+    margin-right: 45px;
   }
 
   .social a {
@@ -225,6 +232,7 @@
   .intro-btn2 {
     font-size: 20px;
     max-width: 100%;
+    margin: auto 10px;
   }
 
   .intro-btns {

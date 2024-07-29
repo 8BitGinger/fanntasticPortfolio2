@@ -2,7 +2,7 @@ import { fadeIn } from '../util/variants';
 
 import { motion } from 'framer-motion';
 import '../assets/css/about.css';
-import legoAvatar from '../assets/images/lego-avatar2.jpg';
+import legoAvatar from '../assets/images/profHeadshot.jpg';
 import beachUs from '../assets/images/beachUs.jpg';
 
 const AboutCards = () => {

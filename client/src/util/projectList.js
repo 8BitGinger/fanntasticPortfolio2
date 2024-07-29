@@ -10,17 +10,17 @@ const subtitle2 = 'MERNg Stack, Framer, JWT';
 const link2 = 'https://antisocialeyes.onrender.com/';
 const git2 = 'https://github.com/8BitGinger/antiSocialMedia';
 
-import img3 from '../assets/images/project-pics/geminiProject.jpg';
-const title3 = 'Gemini Clone';
-const subtitle3 = 'Gemini API';
-const link3 = 'https://gemini-ryan.netlify.app/';
-const git3 = 'https://github.com/8BitGinger/geminiClone';
+import img3 from '../assets/images/project-pics/socialUpProject.jpg';
+const title3 = 'SocialUp↑';
+const subtitle3 = 'React, Gemini API, Formspree';
+const link3 = 'https://social-up.vercel.app/';
+const git3 = 'https://github.com/8BitGinger/socialUp';
 
-import img4 from '../assets/images/project-pics/workforceManagerProject.jpg';
-const title4 = 'Workforce Manager';
-const subtitle4 = 'BackEnd CRM';
-const link4 = 'https://8bitginger.github.io/workforceManager/';
-const git4 = 'https://github.com/8BitGinger/workforceManager';
+import img4 from '../assets/images/project-pics/geminiProject.jpg';
+const title4 = 'Gemini Clone';
+const subtitle4 = 'Gemini API';
+const link4 = 'https://gemini-ryan.netlify.app/';
+const git4 = 'https://github.com/8BitGinger/geminiClone';
 
 import img5 from '../assets/images/project-pics/skyrocketSEOProject.jpg';
 const title5 = 'SkyRocket SEO';
@@ -28,11 +28,11 @@ const subtitle5 = 'SEO Examples';
 const link5 = 'https://seoservices.onrender.com/';
 const git5 = 'https://github.com/8BitGinger/seoServices';
 
-import img6 from '../assets/images/project-pics/readmeMakerProject.jpg';
-const title6 = 'ReadMe Maker';
-const subtitle6 = 'Node.js';
-const link6 = 'https://8bitginger.github.io/readmeMaker/';
-const git6 = 'https://8bitginger.github.io/readmeMaker';
+import img6 from '../assets/images/project-pics/workforceManagerProject.jpg';
+const title6 = 'Workforce Manager';
+const subtitle6 = 'BackEnd CRM';
+const link6 = 'https://8bitginger.github.io/workforceManager/';
+const git6 = 'https://github.com/8BitGinger/workforceManager';
 
 import img7 from '../assets/images/project-pics/silverKnightProject.jpg';
 const title7 = 'Silver Knight RPG';
@@ -64,11 +64,11 @@ const subtitle11 = 'OpenAI API';
 const link11 = 'https://aigen-dth3.onrender.com/';
 const git11 = 'https://github.com/8BitGinger/aiGen';
 
-import img12 from '../assets/images/project-pics/quizzedProject.jpg';
-const title12 = 'Quizzed';
-const subtitle12 = 'Vanilla JS';
-const link12 = 'https://8bitginger.github.io/quizzed/';
-const git12 = 'https://github.com/8BitGinger/quizzed';
+import img12 from '../assets/images/project-pics/readmeMakerProject.jpg';
+const title12 = 'ReadMe Maker';
+const subtitle12 = 'Node.js';
+const link12 = 'https://8bitginger.github.io/readmeMaker/';
+const git12 = 'https://8bitginger.github.io/readmeMaker';
 
 import img13 from '../assets/images/project-pics/casinoSlotProject.jpg';
 const title13 = 'Casino Slots';
@@ -88,11 +88,11 @@ const subtitle15 = 'Dynamic Date, Local Storage';
 const link15 = 'https://tictactypscript-5cd5d0597c27.herokuapp.com/';
 const git15 = 'https://github.com/8BitGinger/tictactoe';
 
-import img16 from '../assets/images/project-pics/passwordGenProject.jpg';
-const title16 = 'Password Gen';
-const subtitle16 = 'JavaScript Logic';
-const link16 = 'https://8bitginger.github.io/passwordGenerator/';
-const git16 = 'https://github.com/8BitGinger/passwordGenerator';
+import img16 from '../assets/images/project-pics/quizzedProject.jpg';
+const title16 = 'Quizzed';
+const subtitle16 = 'Vanilla JS';
+const link16 = 'https://8bitginger.github.io/quizzed/';
+const git16 = 'https://github.com/8BitGinger/quizzed';
 
 import img17 from '../assets/images/project-pics/ticTacTypescriptProject.jpg';
 const title17 = 'TicTacTypescript';
