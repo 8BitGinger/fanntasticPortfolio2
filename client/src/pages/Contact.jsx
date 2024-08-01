@@ -1,15 +1,11 @@
-import { React, useRef } from 'react';
-
 import { useForm, ValidationError } from '@formspree/react';
 
 import { motion } from 'framer-motion';
 
 import { fadeIn } from '../util/variants';
-import DevCard from '../components/DevCard';
 
 import '../assets/css/contact.css';
 import backToTop from '../util/backToTop';
-import buildPic from '../assets/images/buildPic.png';
 
 const Contact = () => {
   backToTop();
@@ -86,9 +82,9 @@ const Contact = () => {
                 </button>
               </form>
             </article>
-            <article className="dev">
+            {/* <article className="dev">
               <img src={buildPic} alt="me holding sign in build gear" />
-            </article>
+            </article> */}
           </section>
         </motion.div>
       </section>

@@ -16,11 +16,11 @@ const subtitle3 = 'React, Gemini API, Formspree';
 const link3 = 'https://social-up.vercel.app/';
 const git3 = 'https://github.com/8BitGinger/socialUp';
 
-import img4 from '../assets/images/project-pics/geminiProject.jpg';
-const title4 = 'Gemini Clone';
-const subtitle4 = 'Gemini API';
-const link4 = 'https://gemini-ryan.netlify.app/';
-const git4 = 'https://github.com/8BitGinger/geminiClone';
+import img11 from '../assets/images/project-pics/geminiProject.jpg';
+const title11 = 'Gemini Clone';
+const subtitle11 = 'Gemini API';
+const link11 = 'https://gemini-ryan.netlify.app/';
+const git11 = 'https://github.com/8BitGinger/geminiClone';
 
 import img5 from '../assets/images/project-pics/skyrocketSEOProject.jpg';
 const title5 = 'SkyRocket SEO';
@@ -58,11 +58,11 @@ const subtitle10 = 'Python';
 const link10 = 'https://8bitginger.github.io/desktopCleaner/';
 const git10 = 'https://github.com/8BitGinger/desktopCleaner';
 
-import img11 from '../assets/images/project-pics/aiGenProject.jpg';
-const title11 = 'AI Image Generator';
-const subtitle11 = 'OpenAI API';
-const link11 = 'https://aigen-dth3.onrender.com/';
-const git11 = 'https://github.com/8BitGinger/aiGen';
+import img4 from '../assets/images/project-pics/aiGenProject.jpg';
+const title4 = 'AI Image Generator';
+const subtitle4 = 'OpenAI API';
+const link4 = 'https://aigen-dth3.onrender.com/';
+const git4 = 'https://github.com/8BitGinger/aiGen';
 
 import img12 from '../assets/images/project-pics/readmeMakerProject.jpg';
 const title12 = 'ReadMe Maker';
