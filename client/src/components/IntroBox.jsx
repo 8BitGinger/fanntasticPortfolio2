@@ -45,17 +45,6 @@ const IntroBox = () => {
         Front End and Back End development to create something new, dynamic, and
         exciting!
       </p>
-      <div className="social">
-        <Link to="https://github.com/8BitGinger" target="_blank">
-          <BsGithub />
-        </Link>
-        <Link to="https://www.linkedin.com/in/ryanfanntastic/" target="_blank">
-          <BsLinkedin />
-        </Link>
-        <Link to="https://twitter.com/the8bitginger" target="_blank">
-          <BsTwitterX />
-        </Link>
-      </div>
       <div className="intro-btns">
         <Link to="/projects">
           <button onClick={play} className="btn intro-btn1">
@@ -66,6 +55,17 @@ const IntroBox = () => {
           <button onClick={play} className="btn intro-btn2">
             Contact Me
           </button>
+        </Link>
+      </div>
+      <div className="social">
+        <Link to="https://github.com/8BitGinger" target="_blank">
+          <BsGithub />
+        </Link>
+        <Link to="https://www.linkedin.com/in/ryanfanntastic/" target="_blank">
+          <BsLinkedin />
+        </Link>
+        <Link to="https://twitter.com/the8bitginger" target="_blank">
+          <BsTwitterX />
         </Link>
       </div>
     </section>

@@ -22,10 +22,11 @@ const AboutCards = () => {
             <img loading="lazy" src={legoAvatar} alt="lego headshot" />
             <p className="about-1">
               Forget Legos, websites are my building blocks! I craft beautiful
-              and modern front ends using HTML5, CSS, and JavaScript, lately
-              throwing React into the mix. I also have mastery over Node.js,
-              Express, Next.js, and MySQL, to name a few, allowing me to design
-              and manage an efficient back end that makes those websites tick.
+              and modern front ends using HTML5, CSS, React and JavaScript,
+              lately throwing Python into the mix. I also have mastery over
+              Node.js, Express, Next.js, and MySQL, to name a few, allowing me
+              to design and manage an efficient back end that makes those
+              websites tick. MERN Stack!
             </p>
           </div>
         </div>

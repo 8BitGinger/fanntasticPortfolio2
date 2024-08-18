@@ -119,7 +119,7 @@
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   padding: 5px;
   border-radius: 50px;
-  margin: 10px;
+  margin: 10px auto;
 }
 
 .social a {

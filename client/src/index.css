@@ -43,7 +43,8 @@
   background: dodgerblue;
 }
 
-.btn {
+.btn,
+.modal-links a {
   margin: 20px auto;
   padding: 10px 20px;
   font-size: 14px;
@@ -52,7 +53,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-
+  text-decoration: none;
   font-family: 'orbitron', sans-serif;
   background-position: left;
   background-size: 300%;
@@ -60,11 +61,13 @@
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
-.btn:hover {
+.btn:hover,
+.modal-links a:hover {
   background-position: right;
 }
 
-.btn:active {
+.btn:active,
+.modal-links a:active {
   scale: 0.9;
 }
 
