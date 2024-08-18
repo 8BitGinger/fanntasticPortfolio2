@@ -16,17 +16,17 @@ const subtitle3 = 'React, Gemini API, Formspree';
 const link3 = 'https://social-up.vercel.app/';
 const git3 = 'https://github.com/8BitGinger/socialUp';
 
-import img11 from '../assets/images/project-pics/geminiProject.jpg';
-const title11 = 'Gemini Clone';
-const subtitle11 = 'Gemini API';
-const link11 = 'https://gemini-ryan.netlify.app/';
-const git11 = 'https://github.com/8BitGinger/geminiClone';
+import img5 from '../assets/images/project-pics/geminiProject.jpg';
+const title5 = 'Gemini Clone';
+const subtitle5 = 'Gemini API';
+const link5 = 'https://gemini-ryan.netlify.app/';
+const git5 = 'https://github.com/8BitGinger/geminiClone';
 
-import img5 from '../assets/images/project-pics/skyrocketSEOProject.jpg';
-const title5 = 'SkyRocket SEO';
-const subtitle5 = 'SEO Examples';
-const link5 = 'https://seoservices.onrender.com/';
-const git5 = 'https://github.com/8BitGinger/seoServices';
+// import img5 from '../assets/images/project-pics/myPhoneProject.jpg';
+// const title5 = 'myPhone UI';
+// const subtitle5 = 'UI Design / Mini Projects';
+// const link5 = 'https://myphone-oi33.onrender.com/';
+// const git5 = '';
 
 import img6 from '../assets/images/project-pics/workforceManagerProject.jpg';
 const title6 = 'Workforce Manager';
@@ -194,14 +194,14 @@ const projectList = [
     link: link10,
     git: git10,
   },
-  {
-    name: 'project-11',
-    img: img11,
-    title: title11,
-    subtitle: subtitle11,
-    link: link11,
-    git: git11,
-  },
+  // {
+  //   name: 'project-11',
+  //   img: img11,
+  //   title: title11,
+  //   subtitle: subtitle11,
+  //   link: link11,
+  //   git: git11,
+  // },
   {
     name: 'project-12',
     img: img12,
@@ -257,6 +257,15 @@ const projectList = [
     subtitle: subtitle18,
     link: link18,
     git: git18,
+  },
+
+  {
+    name: 'project-X',
+    img: imgX,
+    title: titleX,
+    subtitle: subtitleX,
+    link: linkX,
+    git: gitX,
   },
 ];
 

@@ -70,14 +70,14 @@
 
 .intro-btns {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
 .intro-btn1,
 .intro-btn2 {
-  margin: 5px auto;
+  margin: 10px 3px;
   padding: 5px 10px;
   font-size: 18px !important;
   background: linear-gradient(
@@ -119,7 +119,7 @@
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   padding: 5px;
   border-radius: 50px;
-  margin: 10px;
+  margin: 10px auto;
 }
 
 .social a {
