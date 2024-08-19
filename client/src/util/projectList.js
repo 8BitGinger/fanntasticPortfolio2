@@ -106,6 +106,12 @@ const subtitle18 = 'Python';
 const link18 = 'https://8bitginger.github.io/citrus/';
 const git18 = 'https://github.com/8BitGinger/citrus';
 
+import img19 from '../assets/images/project-pics/myPhoneProject.jpg';
+const title19 = 'myPhone UI';
+const subtitle19 = 'UI Design / Mini Projects';
+const link19 = 'https://myphone-oi33.onrender.com/';
+const git19 = '';
+
 import imgX from '../assets/images/project-pics/constructionProject.jpg';
 const titleX = 'Future Project';
 const subtitleX = 'Coming Soon';
@@ -218,22 +224,22 @@ const projectList = [
     link: link13,
     git: git13,
   },
-  {
-    name: 'project-14',
-    img: img14,
-    title: title14,
-    subtitle: subtitle14,
-    link: link14,
-    git: git14,
-  },
-  {
-    name: 'project-15',
-    img: img15,
-    title: title15,
-    subtitle: subtitle15,
-    link: link15,
-    git: git15,
-  },
+  // {
+  //   name: 'project-14',
+  //   img: img14,
+  //   title: title14,
+  //   subtitle: subtitle14,
+  //   link: link14,
+  //   git: git14,
+  // },
+  // {
+  //   name: 'project-15',
+  //   img: img15,
+  //   title: title15,
+  //   subtitle: subtitle15,
+  //   link: link15,
+  //   git: git15,
+  // },
   {
     name: 'project-16',
     img: img16,
@@ -258,6 +264,15 @@ const projectList = [
     link: link18,
     git: git18,
   },
+
+  // {
+  //   name: 'project-19',
+  //   img: img19,
+  //   title: title19,
+  //   subtitle: subtitle19,
+  //   link: link19,
+  //   git: git19,
+  // },
 
   {
     name: 'project-X',
