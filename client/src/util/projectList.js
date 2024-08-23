@@ -3,25 +3,31 @@ const title1 = 'Gumshoe RPG';
 const subtitle1 = 'React, Html2Canvas, Spline';
 const link1 = 'https://gumshoe.vercel.app/';
 const git1 = 'https://github.com/8BitGinger/GumshoeReact';
-const desc = `Gumshoe is a React-based RPG character creator. It uses ${subtitle1}`;
+const desc1 = `Gumshoe is a React-based Landing page for an RPG.  It features a digital character sheet creator to PDF, Interactive Dice Roller, all jam packed inside a custom UI that will knock your socks off bub!`;
 
 import img2 from '../assets/images/project-pics/socialEyesProject.jpg';
 const title2 = 'Social Eyes';
 const subtitle2 = 'MERNg Stack, Framer, JWT';
 const link2 = 'https://antisocialeyes.onrender.com/';
 const git2 = 'https://github.com/8BitGinger/antiSocialMedia';
+const desc2 =
+  'Social Eyes is a MERNg stack project that features a social media platform with a focus on anonymity.  It features Framer Motion, JWT authentication, and a fully functional backend.';
 
 import img3 from '../assets/images/project-pics/socialUpProject.jpg';
 const title3 = 'SocialUp↑';
 const subtitle3 = 'React, Gemini API, Formspree';
 const link3 = 'https://social-up.vercel.app/';
 const git3 = 'https://github.com/8BitGinger/socialUp';
+const desc3 =
+  'SocialUp is a React-based social media post upscaler!  It features a custom graphics, Gemini API, and a contact form.';
 
 import img11 from '../assets/images/project-pics/geminiProject.jpg';
 const title11 = 'Gemini Clone';
 const subtitle11 = 'Gemini API';
 const link11 = 'https://gemini-ryan.netlify.app/';
 const git11 = 'https://github.com/8BitGinger/geminiClone';
+const desc11 =
+  'Gemini Clone is a React-based clone of the Gemini API.  It features a custom UI, and a fully functional API.';
 
 // import img5 from '../assets/images/project-pics/skyrocketSEOProject.jpg';
 // const title5 = 'SkyRocket SEO';
@@ -34,6 +40,7 @@ const title6 = 'Workforce Manager';
 const subtitle6 = 'BackEnd CRM';
 const link6 = 'https://8bitginger.github.io/workforceManager/';
 const git6 = 'https://github.com/8BitGinger/workforceManager';
+const desc6 = `Workforce Manager is a backend CRM for managing employees.  It utilizes a SQL database for managing employees, roles, and departments.`;
 
 // import img7 from '../assets/images/project-pics/silverKnightProject.jpg';
 // const title7 = 'Silver Knight RPG';
@@ -52,6 +59,7 @@ const title9 = 'Weekly Moodal';
 const subtitle9 = 'jQuery, 3rd-Party APIs';
 const link9 = 'https://jameslwilson364.github.io/weeklyMoodal/';
 const git9 = 'https://github.com/jameslwilson364/weeklyMoodal';
+const desc9 = `Weekly Moodal is a jQuery-based mood tracker that utilizes 3rd-party APIs to track your mood over time.  It features a custom graphics`;
 
 // import img10 from '../assets/images/project-pics/desktopCleanerProject.jpg';
 // const title10 = 'Desktop Cleaner';
@@ -64,6 +72,8 @@ const title4 = 'AI Image Generator';
 const subtitle4 = 'OpenAI API';
 const link4 = 'https://aigen-dth3.onrender.com/';
 const git4 = 'https://github.com/8BitGinger/aiGen';
+const desc4 =
+  'AI Image Generator is a React-based project that utilizes the OpenAI API to generate images based on user input.';
 
 // import img12 from '../assets/images/project-pics/readmeMakerProject.jpg';
 // const title12 = 'ReadMe Maker';
@@ -100,24 +110,31 @@ const title17 = 'TicTacTypescript';
 const subtitle17 = 'Typescript';
 const link17 = 'https://tictactypscript-5cd5d0597c27.herokuapp.com/';
 const git17 = 'https://github.com/8BitGinger/tictactoe';
+const desc17 = 'TicTacTypescript is a Typescript-based TicTacToe game.';
 
 import img18 from '../assets/images/project-pics/citrusProject.jpg';
 const title18 = 'Citrus Photo Converter';
 const subtitle18 = 'Python';
 const link18 = 'https://8bitginger.github.io/citrus/';
 const git18 = 'https://github.com/8BitGinger/citrus';
+const desc18 =
+  'Citrus is a Python-based photo converter that converts your HEIC iPhone Pictures into a PNG format.  Turning Apples into Oranges!';
 
 import img19 from '../assets/images/project-pics/myPhoneProject.jpg';
 const title19 = 'myPhone UI';
 const subtitle19 = 'UI Design / Mini Projects';
 const link19 = 'https://myphone-oi33.onrender.com/';
 const git19 = '';
+const desc19 =
+  'myPhone UI is a is a simple way to feature small mini projects.  It is an example of what is possible with React!.';
 
 import imgX from '../assets/images/project-pics/constructionProject.jpg';
 const titleX = 'Future Project';
 const subtitleX = 'Coming Soon';
 const linkX = '';
 const gitX = '';
+const desc =
+  'This project is currently under construction.  Please check back soon!';
 
 const projectList = [
   {
@@ -127,7 +144,7 @@ const projectList = [
     subtitle: subtitle1,
     link: link1,
     git: git1,
-    description: desc,
+    description: desc1,
   },
 
   {
@@ -137,6 +154,7 @@ const projectList = [
     subtitle: subtitle2,
     link: link2,
     git: git2,
+    description: desc2,
   },
   {
     name: 'project-3',
@@ -145,6 +163,7 @@ const projectList = [
     subtitle: subtitle3,
     link: link3,
     git: git3,
+    description: desc3,
   },
   {
     name: 'project-4',
@@ -153,6 +172,7 @@ const projectList = [
     subtitle: subtitle4,
     link: link4,
     git: git4,
+    description: desc4,
   },
   // {
   //   name: 'project-5',
@@ -169,6 +189,7 @@ const projectList = [
     subtitle: subtitle6,
     link: link6,
     git: git6,
+    description: desc6,
   },
   // {
   //   name: 'project-7',
@@ -193,6 +214,7 @@ const projectList = [
     subtitle: subtitle9,
     link: link9,
     git: git9,
+    description: desc9,
   },
   // {
   //   name: 'project-10',
@@ -209,6 +231,7 @@ const projectList = [
     subtitle: subtitle11,
     link: link11,
     git: git11,
+    description: desc11,
   },
   // {
   //   name: 'project-12',
@@ -257,6 +280,7 @@ const projectList = [
     subtitle: subtitle17,
     link: link17,
     git: git17,
+    description: desc17,
   },
   {
     name: 'project-18',
@@ -265,6 +289,7 @@ const projectList = [
     subtitle: subtitle18,
     link: link18,
     git: git18,
+    description: desc18,
   },
 
   {
@@ -274,6 +299,7 @@ const projectList = [
     subtitle: subtitle19,
     link: link19,
     git: git19,
+    description: desc19,
   },
 ];
 

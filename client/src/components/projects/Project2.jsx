@@ -52,9 +52,10 @@ const Project2 = () => {
       {modalOpen && ( // Conditionally render modal when open
         <motion.div
           className="modal"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
+          variants={fadeIn('in', 0.1)}
+          initial="hidden"
+          whileInView={'show'}
+          viewport={{ once: false, amount: 0.3 }}
         >
           <div className="modal-content">
             <div className="modal-image">
@@ -63,6 +64,7 @@ const Project2 = () => {
 
             <div className="modal-text">
               <h2>{selectedProject?.title}</h2>
+              <h3>{selectedProject?.subtitle}</h3>
               <p> {selectedProject?.description}</p>
               <div className="modal-links">
                 <Link to={selectedProject?.link} target="blank">
