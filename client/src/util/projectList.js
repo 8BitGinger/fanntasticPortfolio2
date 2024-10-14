@@ -13,7 +13,7 @@ const git2 = 'https://github.com/8BitGinger/antiSocialMedia';
 const desc2 =
   'Social Eyes is a MERNg stack project that features a social media platform with a focus on anonymity.  It features Framer Motion, JWT authentication, and a fully functional backend.';
 
-import img3 from '../assets/images/project-pics/socialUpProject.jpg';
+import img3 from '../assets/images/project-pics/socialUpProject2.jpg';
 const title3 = 'SocialUp↑';
 const subtitle3 = 'React, Gemini API, Formspree';
 const link3 = 'https://social-up.vercel.app/';
