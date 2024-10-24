@@ -22,7 +22,7 @@ Welcome to my portfolio, a showcase of my web development journey! This React-bu
 1. [Screenshots](#screenshot)
 2. [License](#license)
 3. [Links](#links)
-4. [Technologies](#tech)
+4. [Technologies Implemented](#tech)
 5. [Questions](#support)
 
 ---
