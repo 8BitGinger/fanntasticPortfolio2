@@ -9,7 +9,7 @@ const App = () => {
   return (
     <main>
       <NavBar />
-      <video className="background-video" autoPlay playsinline loop muted>
+      <video className="background-video" autoPlay playsInline loop muted>
         <source src={background} type="video/mp4" />
         Your browser does not support the video tag.    
       </video>
