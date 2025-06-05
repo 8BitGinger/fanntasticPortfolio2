@@ -16,11 +16,11 @@ const subtitle3 = 'React, Gemini API, Formspree';
 const link3 = 'https://social-up.vercel.app/';
 const git3 = 'https://github.com/8BitGinger/socialUp';
 
-import img5 from '../assets/images/project-pics/geminiProject.jpg';
-const title5 = 'Gemini Clone';
-const subtitle5 = 'Gemini API';
-const link5 = 'https://gemini-ryan.netlify.app/';
-const git5 = 'https://github.com/8BitGinger/geminiClone';
+// import img5 from '../assets/images/project-pics/geminiProject.jpg';
+// const title5 = 'Gemini Clone';
+// const subtitle5 = 'Gemini API';
+// const link5 = 'https://gemini-ryan.netlify.app/';
+// const git5 = 'https://github.com/8BitGinger/geminiClone';
 
 // import img5 from '../assets/images/project-pics/myPhoneProject.jpg';
 // const title5 = 'myPhone UI';
@@ -96,8 +96,8 @@ const git16 = 'https://github.com/8BitGinger/quizzed';
 
 import img17 from '../assets/images/project-pics/ticTacTypescriptProject.jpg';
 const title17 = 'TicTacTypescript';
-const subtitle17 = 'Typescript';
-const link17 = 'https://tictactypscript-5cd5d0597c27.herokuapp.com/';
+const subtitle17 = 'Typescript, Next.js';
+const link17 = 'https://tictactypescript-9ff0eadbbf42.herokuapp.com/';
 const git17 = 'https://github.com/8BitGinger/tictactoe';
 
 import img18 from '../assets/images/project-pics/citrusProject.jpg';
@@ -152,14 +152,14 @@ const projectList = [
     link: link4,
     git: git4,
   },
-  {
-    name: 'project-5',
-    img: img5,
-    title: title5,
-    subtitle: subtitle5,
-    link: link5,
-    git: git5,
-  },
+  // {
+  //   name: 'project-5',
+  //   img: img5,
+  //   title: title5,
+  //   subtitle: subtitle5,
+  //   link: link5,
+  //   git: git5,
+  // },
   {
     name: 'project-6',
     img: img6,
@@ -275,6 +275,14 @@ const projectList = [
   // },
 
   {
+    name: 'project-X',
+    img: imgX,
+    title: titleX,
+    subtitle: subtitleX,
+    link: linkX,
+    git: gitX,
+  },
+   {
     name: 'project-X',
     img: imgX,
     title: titleX,

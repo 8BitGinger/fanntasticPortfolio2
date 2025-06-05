@@ -4,6 +4,8 @@ import sound from '../assets/audio/rockNroll.mp3';
 import { BiHomeAlt, BiGhost } from 'react-icons/bi';
 import { BsGithub, BsTwitterX, BsLinkedin } from 'react-icons/bs';
 
+import start from '../assets/images/start.png';
+
 const IntroBox = () => {
   function play() {
     const song = new Audio(sound);
@@ -13,27 +15,25 @@ const IntroBox = () => {
 
   return (
     <section className="intro-box">
-      <span className="intro-nickname">the 8BitGinger</span>
-      <br></br>
-      <span className="intro-desc">I am </span>{' '}
+    
+      <span className="intro-desc">Character Roles: </span>{' '}
       <TypeAnimation
         sequence={[
-          'a Developer',
+          'Developer',
+          3000,
+          'Engineer',
           2000,
-          'a Creator',
+          'Coder',
           2000,
-          'a Designer',
+          'Creator',
           2000,
-          'a Photographer',
+           'Photographer',
           2000,
-          'a Writer',
+          'Designer',
           2000,
-          'an Artist',
+          'Story-Teller',
           2000,
-          'a Story-Teller',
-          2000,
-          'a Game Master',
-          2000,
+      
         ]}
         speed={50}
         className="intro-type"
@@ -41,9 +41,7 @@ const IntroBox = () => {
         repeat={Infinity}
       />
       <p className="intro-paragraph">
-        Being a Full Stack Web Developer allows me to harness the best of both
-        Front End and Back End development to create something new, dynamic, and
-        exciting!
+       Level up! By mastering both Front End and Back End development you gained the Full Stack Power-up. This allows you to build dynamic, exciting, and entirely new experiences.
       </p>
       <div className="social">
         <Link to="https://github.com/8BitGinger" target="_blank">
@@ -57,16 +55,12 @@ const IntroBox = () => {
         </Link>
       </div>
       <div className="intro-btns">
-        <Link to="/projects">
-          <button onClick={play} className="btn intro-btn1">
-            My Projects
-          </button>
+        <Link to="/about">
+         
+            <img onClick={play} className="intro-btn1" src={start} alt="start" />
+         
         </Link>
-        <Link to="/contact">
-          <button onClick={play} className="btn intro-btn2">
-            Contact Me
-          </button>
-        </Link>
+
       </div>
     </section>
   );

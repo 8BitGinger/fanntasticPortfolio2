@@ -8,20 +8,23 @@
   background-color: navy;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background: url(./assets/images/background.png);
-  background-position: left;
-
-  background-size: cover;
+  background: transparent;
 
   background-repeat: no-repeat;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  transition: background-position 1s;
+  
   box-sizing: border-box;
-  animation: bg-animation 80s infinite;
+  
   overflow-x: hidden;
+  --glass-gradient: linear-gradient(
+    45deg,
+    rgba(197, 107, 17, 0.726),
+    rgba(0, 0, 0, 0.5),
+    rgba(25, 83, 145, 0.712)
+  );
 }
 
 ::-webkit-scrollbar {
@@ -100,17 +103,4 @@
   }
 }
 
-@media (min-width: 900px) {
-  :root {
-    background-size: 400%;
-    min-height: fit-content;
-    margin: 0;
-    padding: 0;
-  }
-}
 
-@media (min-width: 1500px) {
-  :root {
-    background-size: 450%;
-  }
-}

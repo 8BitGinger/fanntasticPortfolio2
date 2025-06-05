@@ -6,15 +6,43 @@
   --quinary-color: #f0f0f0;
 }
 
+main {
+  background: none;
+  padding: 0;
+  margin: 0;
+  max-height: 100vh;
+ 
+  width: 100vw;
+}
+
+section {
+  padding: 0;
+  margin: 0;
+}
+
 .page-container {
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background: none;
+  overflow-x: hidden;
+ 
+}
 
-  min-height: 100vh;
+.background-video {
+  position: fixed;
+  -webkit-filter: blur(3px);
+  filter: blur(3px);
+  top: 0;
+  left: 0;
   width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+  z-index: -10;
 }
 
 .contact-box {
@@ -33,7 +61,7 @@
   align-items: center;
   justify-content: center;
 
-  z-index: 99;
+  z-index: 99;  
 }
 
 .nav-bar {
@@ -43,21 +71,23 @@
   border-radius: 50px;
   padding: 10px;
 
-  background-color: rgba(21, 203, 244, 0.182);
+  background: var(--glass-gradient);
+  backdrop-filter: blur(20px);
   border: 1px double rgba(126, 124, 124, 0.28);
-
+  
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  
 }
 
 .nav-link {
   margin: auto 3px;
   font-size: 22px;
   padding: 5px;
-  color: rgba(0, 0, 0, 0.765);
+  color: rgba(255, 255, 255, 0.76);
 
   text-decoration: none;
   width: 40px;
@@ -67,7 +97,7 @@
   align-items: center;
   border-radius: 50%;
   cursor: pointer;
-  background: linear-gradient(45deg, dodgerblue, white, orange);
+  background: linear-gradient(45deg, rgb(1, 26, 255), rgb(48, 45, 45), rgb(223, 147, 6));
   background-position: left;
   background-size: 300%;
   transition: background-position 0.5s;
@@ -119,7 +149,7 @@
 
   .nav-link:hover {
     background-position: right;
-    color: gray;
+    color: rgb(0, 0, 0);
   }
 
   .nav-bar {

@@ -5,7 +5,7 @@
   justify-content: center;
 
   width: 80%;
-
+height: 100vh;
   margin: auto;
 }
 
@@ -112,6 +112,15 @@
   text-wrap: wrap;
   overflow: hidden;
   color: rgba(255, 255, 255, 0.618);
+}
+
+.scroll-pictures {
+    background: linear-gradient(45deg, rgb(1, 26, 255), rgb(48, 45, 45), rgb(223, 147, 6));
+  color: white;
+}
+
+.scroll-pictures:active {
+  opacity: 0.8;
 }
 
 .openModal {
@@ -231,6 +240,8 @@
 @media (min-width: 974px) {
   .project-page {
     margin-left: 100px;
+   
+    height: 100vh;
   }
 }
 

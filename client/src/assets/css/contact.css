@@ -104,9 +104,9 @@
   justify-content: center;
   border-radius: 15px;
   align-items: center;
-  background-color: rgba(21, 214, 244, 0.182);
+  background: var(--glass-gradient);
   border: 1px double rgba(126, 124, 124, 0.28);
-
+  backdrop-filter: blur(20px);
   padding: 10px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
   margin-bottom: 50px;
