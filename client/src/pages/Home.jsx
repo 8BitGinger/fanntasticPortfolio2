@@ -20,16 +20,6 @@ const Home = () => {
           whileInView={'show'}
           viewport={{ once: false, amount: 0.7 }}
         >
-          <motion.h1
-            variants={fadeIn('up', 0.2)}
-            initial="hidden"
-            whileInView={'show'}
-            viewport={{ once: false, amount: 0.7 }}
-            className="home-name"
-          >
-            Ryan Fann
-          </motion.h1>
-
           <IntroBox />
         </motion.article>
         {/* <motion.div

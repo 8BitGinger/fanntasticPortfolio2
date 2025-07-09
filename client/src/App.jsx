@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom';
 import './App.css';
 import NavBar from './components/NavBar';
 
-import background from './assets/video/dashboard.mp4';
+import background from './assets/video/background.mp4';
 
 const App = () => {
   return (

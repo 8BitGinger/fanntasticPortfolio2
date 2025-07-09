@@ -44,9 +44,17 @@
 .home-name {
   font-size: 30px;
   color: orange;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  margin: auto;
   text-align: center;
+  width: 50%;
+}
+
+.home-title {
+  width: 50%;
+  height: auto;
+  margin: auto;
+  animation: cubic-bezier(0.6, 0.04, 0.98, 0.335) pulse 2s infinite;
+  animation-timing-function: ease-in-out;
 }
 
 .intro-nickname {
@@ -277,12 +285,21 @@
 
   .intro-btn1 {
     display: block;
+    scale: 2;
     margin: auto 10px;
   }
 
+  .intro-btn1:hover {
+    scale: 2.1;
+  }
+
+  .intro-btn1:active {
+    scale: 1.9;
+  }
+
   .intro-btns img {
-    width: 125px;
-    height: 125px;
+    width: 105px;
+    height: auto;
     margin: auto;
   }
 

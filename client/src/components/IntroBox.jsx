@@ -3,6 +3,10 @@ import { TypeAnimation } from 'react-type-animation';
 import sound from '../assets/audio/rockNroll.mp3';
 import { BiHomeAlt, BiGhost } from 'react-icons/bi';
 import { BsGithub, BsTwitterX, BsLinkedin } from 'react-icons/bs';
+import { motion } from 'framer-motion';
+import { fadeIn } from '../util/variants';
+
+import Image from '../assets/images/8bitv1.png';
 
 import start from '../assets/images/start.png';
 
@@ -15,7 +19,23 @@ const IntroBox = () => {
 
   return (
     <section className="intro-box">
-      <div className="flex flex-row">
+      <motion.h1
+        variants={fadeIn('up', 0.2)}
+        initial="hidden"
+        whileInView={'show'}
+        viewport={{ once: false, amount: 0.7 }}
+        className="home-name m-auto"
+      >
+        Ryan Fann
+      </motion.h1>
+
+      <motion.div
+        variants={fadeIn('down', 0.2)}
+        initial="hidden"
+        whileInView={'show'}
+        viewport={{ once: false, amount: 0.7 }}
+        className="flex flex-row"
+      >
         <span className="intro-desc">I am </span>
         <TypeAnimation
           sequence={[
@@ -39,7 +59,7 @@ const IntroBox = () => {
           wrapper="span"
           repeat={Infinity}
         />
-      </div>
+      </motion.div>
       <p className="intro-paragraph">
         I&apos;m a Full Stack MERN developer specializing in React & dedicated
         to crafting visually stunning, storytelling websites. My IT engineering
