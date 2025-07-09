@@ -6,7 +6,7 @@
 
   margin: 0;
   height: 100vh;
-  
+
   width: 100%;
 }
 
@@ -37,6 +37,8 @@
   background: var(--glass-gradient);
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   padding: 20px;
+
+  backdrop-filter: blur(3px);
 }
 
 .home-name {
@@ -54,14 +56,13 @@
   font-size: 18px;
   text-align: center;
   font-family: 'Pixelify Sans', sans-serif;
- 
+
   font-optical-sizing: auto;
   background: linear-gradient(45deg, orange, white, dodgerblue);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
   padding: 5px 10px;
-  
 }
 
 .intro-box {
@@ -70,7 +71,6 @@
   justify-content: center;
   align-items: center;
   width: fit-content;
-  
 }
 
 .intro-desc {
@@ -103,21 +103,19 @@
 
 .intro-btn1 {
   display: none;
- 
 }
 
 .intro-btns img {
-    width: 150px;
-    height: 150px;
+  width: 150px;
+  height: 150px;
   margin: auto;
   animation: blink 1s infinite;
   animation-timing-function: ease-in-out;
-  }
+}
 
 .intro-btn1:hover {
   scale: 1.1;
 }
-
 
 .intro-btn1:active {
   scale: 0.9;
@@ -209,7 +207,6 @@
     justify-items: center;
     align-items: center;
     width: fit-content;
-    
 
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
     padding: 10px;
@@ -256,15 +253,15 @@
 
   .intro-nickname {
     text-align: center;
-  font-family: 'Pixelify Sans', sans-serif;
- 
-  font-optical-sizing: auto;
-  background: linear-gradient(45deg, orange, white, dodgerblue);
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-  font-size: 35px;
-}
+    font-family: 'Pixelify Sans', sans-serif;
+
+    font-optical-sizing: auto;
+    background: linear-gradient(45deg, orange, white, dodgerblue);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 35px;
+  }
 
   .intro-desc {
     font-size: 30px;

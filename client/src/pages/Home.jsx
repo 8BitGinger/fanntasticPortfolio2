@@ -13,10 +13,13 @@ const Home = () => {
   return (
     <section className="homepage-container" id="home">
       <div className="home-page">
-        <motion.article className="home-intro" variants={fadeIn('up', 0.4)}
-            initial="hidden"
-            whileInView={'show'}
-            viewport={{ once: false, amount: 0.7 }}>
+        <motion.article
+          className="home-intro"
+          variants={fadeIn('up', 0.4)}
+          initial="hidden"
+          whileInView={'show'}
+          viewport={{ once: false, amount: 0.7 }}
+        >
           <motion.h1
             variants={fadeIn('up', 0.2)}
             initial="hidden"
@@ -24,14 +27,9 @@ const Home = () => {
             viewport={{ once: false, amount: 0.7 }}
             className="home-name"
           >
-            Player 1: 
-            <br/>
             Ryan Fann
           </motion.h1>
-          <h2 className='intro-nickname'>
-            High Score: <br />
-            8BitGinger
-          </h2>
+
           <IntroBox />
         </motion.article>
         {/* <motion.div

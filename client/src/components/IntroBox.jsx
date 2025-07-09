@@ -15,33 +15,36 @@ const IntroBox = () => {
 
   return (
     <section className="intro-box">
-    
-      <span className="intro-desc">Character Roles: </span>{' '}
-      <TypeAnimation
-        sequence={[
-          'Developer',
-          3000,
-          'Engineer',
-          2000,
-          'Coder',
-          2000,
-          'Creator',
-          2000,
-           'Photographer',
-          2000,
-          'Designer',
-          2000,
-          'Story-Teller',
-          2000,
-      
-        ]}
-        speed={50}
-        className="intro-type"
-        wrapper="span"
-        repeat={Infinity}
-      />
+      <div className="flex flex-row">
+        <span className="intro-desc">I am </span>
+        <TypeAnimation
+          sequence={[
+            'a Developer',
+            3000,
+            'an Engineer',
+            2000,
+            'a Coder',
+            2000,
+            'a Creator',
+            2000,
+            'a Photographer',
+            2000,
+            'a Designer',
+            2000,
+            'a Story-Teller',
+            2000,
+          ]}
+          speed={50}
+          className="intro-type"
+          wrapper="span"
+          repeat={Infinity}
+        />
+      </div>
       <p className="intro-paragraph">
-       Level up! By mastering both Front End and Back End development you gained the Full Stack Power-up. This allows you to build dynamic, exciting, and entirely new experiences.
+        I&apos;m a Full Stack MERN developer specializing in React & dedicated
+        to crafting visually stunning, storytelling websites. My IT engineering
+        experience allows me to build robust, high-performance applications. See
+        my projects for examples.
       </p>
       <div className="social">
         <Link to="https://github.com/8BitGinger" target="_blank">
@@ -56,11 +59,8 @@ const IntroBox = () => {
       </div>
       <div className="intro-btns">
         <Link to="/about">
-         
-            <img onClick={play} className="intro-btn1" src={start} alt="start" />
-         
+          <img onClick={play} className="intro-btn1" src={start} alt="start" />
         </Link>
-
       </div>
     </section>
   );

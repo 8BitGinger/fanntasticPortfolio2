@@ -11,7 +11,7 @@ main {
   padding: 0;
   margin: 0;
   max-height: 100vh;
- 
+
   width: 100vw;
 }
 
@@ -28,13 +28,11 @@ section {
   justify-content: center;
   background: none;
   overflow-x: hidden;
- 
 }
 
 .background-video {
   position: fixed;
-  -webkit-filter: blur(3px);
-  filter: blur(3px);
+
   top: 0;
   left: 0;
   width: 100%;
@@ -61,7 +59,7 @@ section {
   align-items: center;
   justify-content: center;
 
-  z-index: 99;  
+  z-index: 99;
 }
 
 .nav-bar {
@@ -74,13 +72,12 @@ section {
   background: var(--glass-gradient);
   backdrop-filter: blur(20px);
   border: 1px double rgba(126, 124, 124, 0.28);
-  
+
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  
 }
 
 .nav-link {
@@ -97,7 +94,12 @@ section {
   align-items: center;
   border-radius: 50%;
   cursor: pointer;
-  background: linear-gradient(45deg, rgb(1, 26, 255), rgb(48, 45, 45), rgb(223, 147, 6));
+  background: linear-gradient(
+    45deg,
+    rgb(1, 26, 255),
+    rgb(48, 45, 45),
+    rgb(223, 147, 6)
+  );
   background-position: left;
   background-size: 300%;
   transition: background-position 0.5s;

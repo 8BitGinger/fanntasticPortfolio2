@@ -6,20 +6,24 @@ import { fadeIn } from '../util/variants';
 
 import '../assets/css/contact.css';
 import backToTop from '../util/backToTop';
+import { useState } from 'react';
 
 const Contact = () => {
   backToTop();
 
   const [state, handleSubmit, reset] = useForm('mjvnrreq');
+  const [isExploding, setIsExploding] = useState(false);
 
   if (state.succeeded) {
-    window.location.reload();
     return <p className="pop-up">Thanks for reaching out!</p>;
-  } else {
-    if (state.errors) {
-      console.log(state.errors);
-      return <p className="pop-up">There was an error. Please try again.</p>;
-    }
+    setIsExploding(true);
+  } else if (state.submitting) {
+    return <p className="pop-up">Submitting...</p>;
+  } else if (isExploding) {
+    return <p className="pop-up">Thanks for reaching out!</p>;
+  }
+  if (state.errors && state.errors.length > 0) {
+    return <p className="pop-up">There was an error. Please try again.</p>;
   }
 
   return (
