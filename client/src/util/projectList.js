@@ -97,8 +97,8 @@ const git16 = 'https://github.com/8BitGinger/quizzed';
 import img17 from '../assets/images/project-pics/ticTacTypescriptProject.jpg';
 const title17 = 'TicTacTypescript';
 const subtitle17 = 'Typescript, Next.js';
-const link17 = 'https://tictactypescript-9ff0eadbbf42.herokuapp.com/';
-const git17 = 'https://github.com/8BitGinger/tictactoe';
+const link17 = 'https://tictactypscript-5cd5d0597c27.herokuapp.com/';
+const git17 = 'https://tictactypscript-5cd5d0597c27.herokuapp.com/';
 
 import img18 from '../assets/images/project-pics/citrusProject.jpg';
 const title18 = 'Citrus Photo Converter';
