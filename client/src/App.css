@@ -1,162 +1,113 @@
-:root {
-  --primary-color: #f0f0f0;
-  --secondary-color: #f0f0f0;
-  --tertiary-color: #f0f0f0;
-  --quaternary-color: #f0f0f0;
-  --quinary-color: #f0f0f0;
+.row {
+    display: flex;
+    flex-direction: row;
+
 }
 
-main {
-  background: none;
-  padding: 0;
-  margin: 0;
-  max-height: 100vh;
-
-  width: 100vw;
-}
-
-section {
-  padding: 0;
-  margin: 0;
-}
-
-.page-container {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background: none;
-  overflow-x: hidden;
-}
-
-.background-video {
-  position: fixed;
-
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  object-fit: cover;
-  z-index: -10;
-}
-
-.contact-box {
-  display: flex;
-  flex-direction: column;
-}
-
-.nav-bar-container {
-  position: fixed;
-  top: 1;
-  left: 0;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  z-index: 99;
-}
-
-.nav-bar {
-  margin: 0px auto;
-  width: fit-content;
-
-  border-radius: 50px;
-  padding: 10px;
-
-  background: var(--glass-gradient);
-  backdrop-filter: blur(20px);
-  border: 1px double rgba(126, 124, 124, 0.28);
-
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav-link {
-  margin: auto 3px;
-  font-size: 22px;
-  padding: 5px;
-  color: rgba(255, 255, 255, 0.76);
-
-  text-decoration: none;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  cursor: pointer;
-  background: linear-gradient(
-    45deg,
-    rgb(1, 26, 255),
-    rgb(48, 45, 45),
-    rgb(223, 147, 6)
-  );
-  background-position: left;
-  background-size: 300%;
-  transition: background-position 0.5s;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-}
-
-.nav-link:focus,
-.nav-link:active {
-  background-position: right;
-}
-
-.nav-link:active {
-  scale: 0.9;
-}
-
-@keyframes bg-animation {
-  0% {
-    background-position: left;
-  }
-
-  50% {
-    background-position: right;
-  }
-
-  100% {
-    background-position: left;
-  }
-}
-
-@media (min-width: 900px) {
-  .nav-link {
-    width: 60px;
-    height: 60px;
-    font-size: 30px;
-    margin: 5px auto;
-  }
-
-  .page-container {
-    align-items: center;
-  }
-
-  .nav-bar-container {
-    position: fixed;
-    left: 10px;
-    top: 0;
-    height: 100%;
-    width: fit-content;
-  }
-
-  .nav-link:hover {
-    background-position: right;
-    color: rgb(0, 0, 0);
-  }
-
-  .nav-bar {
+.column {
     display: flex;
     flex-direction: column;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-  }
+
 }
+
+
+.home-page {
+    display: flex;
+    flex-direction: column;
+    width: 99vw;
+    height: 98vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.intro-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+    margin: auto;
+    
+}
+
+.intro-box h1 {
+    font-size: 2rem;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+}
+
+.intro-box h2 {
+    font-size: 1.5rem;
+    color: #fff;
+    width: 70%;
+    margin: auto;
+}
+.intro-box p {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.intro-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.left {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 68%;
+    height: 100%;
+    padding: 40px;
+}
+
+.right {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    width: 28%;
+    height: 100%;
+}
+
+.right img {
+    width: 200px;
+    height: auto;
+    
+}
+
+.intro-image {
+    animation : growAndTilt 2s infinite ease-in-out;
+    
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+        @keyframes growAndTilt {
+            0% {
+                transform: scale(1) rotate(0deg);
+            }
+            50% {
+                transform: scale(1.5) rotate(5deg); /* Grows slightly and tilts 5 degrees to the right */
+            }
+            100% {
+                transform: scale(1) rotate(0deg);
+            }
+        }

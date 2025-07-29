@@ -5,19 +5,13 @@
   font-optical-sizing: auto;
   line-height: 1.5;
   font-weight: 400;
-  background-color: navy;
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background: transparent;
-
+  background-color: var(--primary-bg);
   background-repeat: no-repeat;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
   box-sizing: border-box;
-
   overflow-x: hidden;
   --glass-gradient: linear-gradient(
     45deg,
@@ -25,6 +19,12 @@
     rgba(0, 0, 0, 0.5),
     rgba(25, 83, 145, 0.712)
   );
+  --primary-text: rgb(0, 0, 0);
+  --secondary-text: rgb(255, 251, 251);
+  --primary-bg: rgb(48, 46, 46);
+        background: url('./assets/images/background.png') no-repeat center center fixed;
+    background-size: cover;
+    animation: bg-animation 10s ease-in-out infinite;
 }
 
 ::-webkit-scrollbar {
@@ -44,35 +44,6 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: dodgerblue;
-}
-
-.btn {
-  margin: 20px auto;
-  padding: 10px 20px;
-  font-size: 14px;
-  background: linear-gradient(45deg, orange, white, dodgerblue);
-  color: black;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-
-  font-family: 'orbitron', sans-serif;
-  background-position: left;
-  background-size: 300%;
-  transition: background-position 1s;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-}
-
-.btn:hover {
-  background-position: right;
-}
-
-.btn:active {
-  scale: 0.9;
-}
-
-.spacer {
-  height: 50px;
 }
 
 @keyframes bg-animation {

@@ -1,18 +1,20 @@
-import Image from '../assets/images/8bitv1.png';
+// import Image from '../assets/images/8bitv1.png';
 
 import { motion } from 'framer-motion';
 
 import { fadeIn } from '../util/variants';
-import '../assets/css/home.css';
-import IntroBox from '../components/IntroBox';
+// import '../assets/css/home.css';
+// import IntroBox from '../components/IntroBox';
 import backToTop from '../util/backToTop';
+
+import IntroBox from '../components/IntroBox';
 
 const Home = () => {
   backToTop();
 
   return (
-    <section className="homepage-container" id="home">
-      <div className="home-page">
+    <section className="home-page" id="home">
+    
         <motion.article
           className="home-intro"
           variants={fadeIn('up', 0.4)}
@@ -30,7 +32,7 @@ const Home = () => {
         >
           <img loading="lazy" className="avatar" src={Image} alt="Avatar" />
         </motion.div> */}
-      </div>
+     
     </section>
   );
 };
