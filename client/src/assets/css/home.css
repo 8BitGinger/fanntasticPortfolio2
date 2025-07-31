@@ -12,6 +12,7 @@
 
 .home-page {
   width: 80%;
+  margin: auto;
 }
 
 /* .home-page img {
@@ -37,16 +38,18 @@
   background: var(--glass-gradient);
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   padding: 20px;
-
+  margin: auto;
   backdrop-filter: blur(3px);
+  
 }
 
 .home-name {
   font-size: 30px;
-  color: orange;
+  color: rgb(72, 255, 0);
   margin: auto;
   text-align: center;
-  width: 50%;
+  width: 80%;
+  margin-bottom: 10px;
 }
 
 .home-title {
@@ -66,7 +69,7 @@
   font-family: 'Pixelify Sans', sans-serif;
 
   font-optical-sizing: auto;
-  background: linear-gradient(45deg, orange, white, dodgerblue);
+  background: linear-gradient(45deg, rgb(0, 255, 0), white, dodgerblue);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
@@ -150,7 +153,7 @@
 }
 
 .social a:hover {
-  color: rgb(255, 166, 0);
+  color: rgb(72, 255, 0);
 }
 
 @keyframes grow-and-shrink {
@@ -230,7 +233,7 @@
   }
 
   .social a:hover {
-    color: rgb(255, 166, 0);
+    color: rgb(60, 255, 0);
   }
 
   .home-page {
@@ -264,7 +267,7 @@
     font-family: 'Pixelify Sans', sans-serif;
 
     font-optical-sizing: auto;
-    background: linear-gradient(45deg, orange, white, dodgerblue);
+    background: linear-gradient(45deg, rgb(72, 255, 0), white, dodgerblue);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -305,7 +308,7 @@
 
   .home-name {
     font-size: 50px;
-    color: orange;
+ 
     margin-bottom: 0px;
     margin-top: 0px;
     text-align: center;

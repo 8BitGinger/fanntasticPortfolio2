@@ -274,22 +274,7 @@ const projectList = [
   //   git: git19,
   // },
 
-  {
-    name: 'project-X',
-    img: imgX,
-    title: titleX,
-    subtitle: subtitleX,
-    link: linkX,
-    git: gitX,
-  },
-   {
-    name: 'project-X',
-    img: imgX,
-    title: titleX,
-    subtitle: subtitleX,
-    link: linkX,
-    git: gitX,
-  },
+
 ];
 
 export default projectList;

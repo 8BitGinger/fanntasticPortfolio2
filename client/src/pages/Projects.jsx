@@ -1,50 +1,49 @@
-import { motion } from 'framer-motion';
+import React from 'react';
+import Marquee from 'react-fast-marquee';
+import '../assets/css/projects.css'; // Assuming you have a CSS file for styling
 
-import { fadeIn } from '../util/variants';
+// Your array of project data
+import projectList from '../util/projectList';
 
-import '../assets/css/weather.css';
-import '../assets/css/projects.css';
-import Project1 from '../components/projects/Project1';
-import backToTop from '../util/backToTop';
-import ProjectOverlay from '../components/ProjectOverlay';
-import WeatherCard from '../components/WeatherCard';
 
-function scrollPictures() {
-  const project = document.querySelector('.projects');
-  project.scrollTop += 272;
-}
+const ProjectBlock = ({ img, title, link }) => (
+  <a href={link} className="project-block" target='_blank' rel="noopener noreferrer">
+    <div 
+      className="project-image"
+      style={{ backgroundImage: `url(${img})` }}
+    >
+      <div className="project-link-overlay">
+        <span>{title}</span>
+      </div>
+    </div>
+  </a>
+);
 
 const Projects = () => {
-  backToTop();
-
   return (
-    <>
-      <motion.section
-        variants={fadeIn('right', 0.3)}
-        initial="hidden"
-        whileInView={'show'}
-        className="project-page"
-        viewport={{ once: false, amount: 0.7 }}
-      >
-        <article className="projects">
-          <Project1 />
-        </article>
+    <section className="marquee-container">
+      <h1 className='project-title'> My Projects</h1>
+      {/* Top line: Left to right */}
+      <Marquee speed={130} gradient={false}>
+        {projectList.map((project, index) => (
+          <ProjectBlock key={index} {...project} />
+        ))}
+      </Marquee>
 
-        <motion.button
-          variants={fadeIn('up', 0.9)}
-          initial="hidden"
-          whileInView={'show'}
-          className="scroll-pictures btn"
-          viewport={{ once: false, amount: 0.3 }}
-          onClick={scrollPictures}
-        >
-          Scroll
-        </motion.button>
-      </motion.section>
-      {/* <WeatherCard /> */}
+      {/* Middle line: Right to left */}
+      <Marquee speed={100} direction="right" gradient={false}>
+        {projectList.map((project, index) => (
+          <ProjectBlock key={index} {...project} />
+        ))}
+      </Marquee>
 
-      <ProjectOverlay />
-    </>
+      {/* Bottom line: Left to right */}
+      <Marquee speed={130} gradient={false}>
+        {projectList.map((project, index) => (
+          <ProjectBlock key={index} {...project} />
+        ))}
+      </Marquee>
+    </section>
   );
 };
 

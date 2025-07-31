@@ -18,6 +18,8 @@ const IntroBox = () => {
   }
 
   return (
+    <>
+    
     <section className="intro-box">
       <motion.h1
         variants={fadeIn('up', 0.2)}
@@ -39,20 +41,22 @@ const IntroBox = () => {
         <span className="intro-desc">I am </span>
         <TypeAnimation
           sequence={[
+            'the 8-Bit Ginger',
+            4000,
             'a Developer',
             3000,
             'an Engineer',
-            2000,
+            3000,
             'a Coder',
             2000,
             'a Creator',
             2000,
             'a Photographer',
-            2000,
+            1000,
             'a Designer',
-            2000,
+            1000,
             'a Story-Teller',
-            2000,
+            1000,
           ]}
           speed={50}
           className="intro-type"
@@ -63,8 +67,7 @@ const IntroBox = () => {
       <p className="intro-paragraph">
         I&apos;m a Full Stack MERN developer specializing in React & dedicated
         to crafting visually stunning, storytelling websites. My IT engineering
-        experience allows me to build robust, high-performance applications. See
-        my projects for examples.
+        experience allows me to build robust, high-performance applications. I thrive on transforming complex ideas into seamless digital realities. 
       </p>
       <div className="social">
         <Link to="https://github.com/8BitGinger" target="_blank">
@@ -79,10 +82,13 @@ const IntroBox = () => {
       </div>
       <div className="intro-btns">
         <Link to="/about">
-          <img onClick={play} className="intro-btn1" src={start} alt="start" />
+          <button className="btn btn-primary" onClick={play}>
+            <BiGhost /> About Me <BiGhost /> 
+          </button>
         </Link>
       </div>
     </section>
+    </>
   );
 };
 

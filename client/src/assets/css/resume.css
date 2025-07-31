@@ -3,7 +3,7 @@
 }
 
 .resume-title {
-  background: linear-gradient(45deg, orange, white, dodgerblue);
+  background: linear-gradient(45deg, rgb(0, 255, 0), white, dodgerblue);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
@@ -24,8 +24,11 @@
 .skills {
   width: 80%;
   height: fit-content;
-  margin-left: 35px;
-  margin-top: 20px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.664);
+  backdrop-filter: blur(10px);;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .resume-icon {
@@ -55,8 +58,10 @@
 }
 
 .skill-level {
-  background-color: orange;
+  background-color: rgb(0, 255, 0);
   height: 10px;
+  border-radius: 5px;
+  transition: width 0.5s ease-in-out;
 }
 
 .graphic-box {
@@ -113,7 +118,7 @@
   }
 
   .skill-list {
-    width: 50%;
+    width: 80%;
   }
   .graphic-box {
     display: flex;
@@ -121,7 +126,7 @@
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 50px;
-    width: 40%;
+    width: 20%;
     height: fit-content;
     min-height: 100%;
     margin-left: 50px;
@@ -134,6 +139,5 @@
     margin: 80px auto;
   }
 
-  .services {
-  }
+ 
 }

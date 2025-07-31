@@ -5,9 +5,12 @@
   align-items: center;
 
   padding: 20px;
-  width: 80%;
-  
-  margin: 50px auto;
+
+}
+
+.about-page-container {
+  width: 90%;
+  margin: auto;
 }
 
 .about-text p {
@@ -43,7 +46,7 @@
 }
 
 .about-container h2 {
-  background: linear-gradient(45deg, orange, white, dodgerblue);
+  background: linear-gradient(45deg, rgb(0, 255, 0), white, dodgerblue);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;

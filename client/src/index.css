@@ -21,9 +21,9 @@
   overflow-x: hidden;
   --glass-gradient: linear-gradient(
     45deg,
-    rgba(197, 107, 17, 0.726),
+    rgba(30, 143, 255, 0.733),
     rgba(0, 0, 0, 0.5),
-    rgba(25, 83, 145, 0.712)
+    rgba(53, 238, 62, 0.712)
   );
 }
 
@@ -37,7 +37,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: orange;
+  background: rgba(106, 255, 138, 0.712);
   border-radius: 8px;
 }
 
@@ -50,7 +50,7 @@
   margin: 20px auto;
   padding: 10px 20px;
   font-size: 14px;
-  background: linear-gradient(45deg, orange, white, dodgerblue);
+  background: linear-gradient(45deg, rgb(0, 255, 0), white, dodgerblue);
   color: black;
   border: none;
   border-radius: 5px;
