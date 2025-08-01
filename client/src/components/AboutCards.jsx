@@ -53,7 +53,7 @@ const AboutCards = () => {
         </div>
       </motion.article>
 
-            <motion.article
+      <motion.article
         variants={fadeIn('left', 0.5)}
         initial="hidden"
         whileInView={'show'}

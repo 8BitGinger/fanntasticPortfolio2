@@ -22,27 +22,27 @@ const ProjectBlock = ({ img, title, link }) => (
 const Projects = () => {
   return (
     <section className="marquee-container">
-      <h1 className='project-title'> My Projects</h1>
       {/* Top line: Left to right */}
-      <Marquee speed={130} gradient={false}>
+      <Marquee speed={180} gradient={false}>
         {projectList.map((project, index) => (
           <ProjectBlock key={index} {...project} />
         ))}
       </Marquee>
 
-      {/* Middle line: Right to left */}
-      <Marquee speed={100} direction="right" gradient={false}>
+      <Marquee speed={100} direction="right" pauseOnHover={true} gradient={false}>
         {projectList.map((project, index) => (
           <ProjectBlock key={index} {...project} />
         ))}
       </Marquee>
 
       {/* Bottom line: Left to right */}
-      <Marquee speed={130} gradient={false}>
+      <Marquee speed={180} gradient={false}>
         {projectList.map((project, index) => (
           <ProjectBlock key={index} {...project} />
         ))}
       </Marquee>
+
+
     </section>
   );
 };

@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { fadeIn } from '../util/variants';
 import imgSkill from '../assets/images/services.png';
-import ResumeDoc from '../assets/downloads/devResume-v5-2024.pdf';
+import ResumeDoc from '../assets/downloads/Resume2025.pdf';
 import htmlImg from '../assets/images/html.png';
 import cssImg from '../assets/images/css.png';
 import javascriptImg from '../assets/images/js.png';

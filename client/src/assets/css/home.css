@@ -39,7 +39,7 @@
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   padding: 20px;
   margin: auto;
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(10px);
   
 }
 
@@ -138,11 +138,12 @@
   justify-items: center;
   align-items: center;
   width: fit-content;
-  background: var(--glass-gradient);
+  background: rgba(0, 0, 0, 0.5);
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   padding: 5px;
   border-radius: 50px;
   margin: 10px auto;
+  border: 1px double rgba(126, 124, 124, 0.4);
 }
 
 .social a {
