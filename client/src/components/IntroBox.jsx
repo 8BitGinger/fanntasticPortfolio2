@@ -6,9 +6,9 @@ import { BsGithub, BsTwitterX, BsLinkedin } from 'react-icons/bs';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../util/variants';
 
-import Image from '../assets/images/8bitv1.png';
+import Image from '../assets/images/about3.png';
 
-import start from '../assets/images/start.png';
+
 
 const IntroBox = () => {
   function play() {
@@ -19,9 +19,17 @@ const IntroBox = () => {
 
   return (
     <>
-    
+        <img
+          className='intro-img'
+          alt="8-bit developer avatar"
+          src={Image}
+        ></img>
+
     <section className="intro-box">
-      <motion.h1
+     
+      
+     
+            <motion.h1
         variants={fadeIn('up', 0.2)}
         initial="hidden"
         whileInView={'show'}
@@ -64,12 +72,19 @@ const IntroBox = () => {
           repeat={Infinity}
         />
       </motion.div>
+  
+
+
       <p className="intro-paragraph">
         I&apos;m a Full Stack MERN developer specializing in React & dedicated
         to crafting visually stunning, storytelling websites. My IT engineering
         experience allows me to build robust, high-performance applications. I thrive on transforming complex ideas into seamless digital realities. 
       </p>
-      <div className="social">
+      
+      
+    </section>
+
+    <div className="social">
         <Link to="https://github.com/8BitGinger" target="_blank">
           <BsGithub />
         </Link>
@@ -87,7 +102,7 @@ const IntroBox = () => {
           </button>
         </Link>
       </div>
-    </section>
+    
     </>
   );
 };

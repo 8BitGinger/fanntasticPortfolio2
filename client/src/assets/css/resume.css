@@ -28,8 +28,7 @@
 }
 
 .skill {
-    background: linear-gradient(45deg, rgba(56, 56, 56, 0.61), rgba(29, 29, 29, 0.76), rgba(6, 108, 202, 0.445));
-  
+  background: var(--glass-gradient);
   backdrop-filter: blur(8px);
   padding: 15px;
   border-radius: 25px;
@@ -67,7 +66,7 @@
 }
 
 .skill-level {
-  background-color: rgb(0, 255, 0);
+  background-color: rgb(211, 224, 27);
   height: 10px;
   border-radius: 5px;
   transition: width 0.5s ease-in-out;

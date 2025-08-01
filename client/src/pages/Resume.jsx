@@ -5,7 +5,7 @@ import Spacer from '../components/Spacer';
 import ResumeGraphic from '../components/ResumeGraphic';
 import SkillList from '../components/SkillList';
 import backToTop from '../util/backToTop';
-import aboutImg from '../assets/images/about.png'; // Assuming this is the correct path for the image
+import aboutImg from '../assets/images/about3.png'; // Assuming this is the correct path for the image
 
 const Resume = () => {
   backToTop();

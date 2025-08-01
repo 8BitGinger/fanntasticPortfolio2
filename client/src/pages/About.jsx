@@ -1,4 +1,4 @@
-import aboutImg from '../assets/images/about.png';
+import aboutImg from '../assets/images/about3.png';
 
 import { motion } from 'framer-motion';
 
