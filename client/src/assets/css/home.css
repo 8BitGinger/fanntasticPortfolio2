@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  padding: 0;
   margin: 0;
   height: 100vh;
 
@@ -39,8 +39,10 @@
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   padding: 20px;
   margin: auto;
+
   backdrop-filter: blur(10px);
-  
+  width: 80%;
+  height: fit-content;
 }
 
 .home-name {
@@ -81,7 +83,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: fit-content;
+  margin: auto;
+  
 }
 
 .intro-desc {
@@ -256,9 +259,12 @@
 }
 
 .social {
-    position: fixed;
-  bottom: 0;
-  right: 10px;
+  position: fixed;
+  bottom: -100px;
+  right: 50%;
+  
+  transform: translateX(50%);
+  
   z-index: 1000;
 }
 
@@ -271,7 +277,8 @@
   }
 
   .social a:hover {
-    color: rgb(255, 251, 0);
+    color: rgb(60, 255, 0);
+    transform: translateY(-2px);
   }
 
   .home-page {
@@ -303,15 +310,14 @@
   } */
 
   .intro-paragraph {
-    font-size: 20px;
-    padding: 10px;
+    font-size: 18px;
+    padding: 0;
     border-radius: 10px;
+    margin: auto;
+    width: 100%;
   }
 
-  .home-intro {
-    margin-right: 80px;
-    margin-top: -100px;
-  }
+  
 
   .intro-nickname {
     text-align: center;
@@ -322,15 +328,17 @@
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .intro-desc {
-    font-size: 30px;
+    font-size: 20px;
+    margin: auto;
   }
 
   .intro-type {
     font-size: 30px;
+    margin: auto;
   }
 
   .intro-text {
@@ -358,7 +366,7 @@
   }
 
   .home-name {
-    font-size: 50px;
+    font-size: 40px;
  
     margin-bottom: 0px;
     margin-top: 0px;

@@ -1,5 +1,6 @@
 .skill h3 {
   font-size: 20px;
+  margin: 0;
 }
 
 .resume-title {
@@ -19,6 +20,7 @@
 
 .skill p {
   font-size: 20px;
+  margin: 0;
 }
 
 .skills {
@@ -30,9 +32,10 @@
 .skill {
   background: var(--glass-gradient);
   backdrop-filter: blur(8px);
-  padding: 15px;
+  padding: 8px;
   border-radius: 25px;
-  margin: 10px;
+  margin: 10px auto;
+  width: 100%;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   border: 1px  double rgba(126, 124, 124, 0.28);
 
