@@ -4,10 +4,11 @@
   --tertiary-color: #f0f0f0;
   --quaternary-color: #f0f0f0;
   --quinary-color: #f0f0f0;
+  background-color: black;;
 }
 
 main {
-  background: none;
+  
   padding: 0;
   margin: 0;
   max-height: 100vh;
