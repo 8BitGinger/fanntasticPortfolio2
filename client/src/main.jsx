@@ -7,6 +7,7 @@ import Home from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import Resume from './pages/Resume.jsx';
 import Projects from './pages/Projects.jsx';
+import OBS from './pages/OBS.jsx';
 import Contact from './pages/Contact.jsx';
 
 const router = createBrowserRouter([
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: '/projects',
         element: <Projects />,
+      },
+      {
+        path: '/obs',
+        element: <OBS />,
       },
       {
         path: '/contact',

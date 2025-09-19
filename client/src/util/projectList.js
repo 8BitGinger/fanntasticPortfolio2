@@ -1,7 +1,7 @@
 import img1 from '../assets/images/project-pics/gumshoeProject.jpg';
 const title1 = 'Gumshoe RPG';
 const subtitle1 = 'React, Html2Canvas, Spline';
-const link1 = 'https://gumshoe.vercel.app/';
+const link1 = 'https://gumshoerpg.com/';
 const git1 = 'https://github.com/8BitGinger/GumshoeReact';
 
 import img2 from '../assets/images/project-pics/socialEyesProject.jpg';

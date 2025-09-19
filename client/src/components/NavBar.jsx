@@ -1,6 +1,8 @@
 import React from 'react';
 import { BiHomeAlt, BiUser } from 'react-icons/bi';
 import { BsClipboardData, BsBriefcase, BsChatSquareText } from 'react-icons/bs';
+import { SiObsstudio } from "react-icons/si";
+
 import { Link } from 'react-router-dom';
 
 const NavBar = () => {
@@ -19,6 +21,9 @@ const NavBar = () => {
         <Link className="nav-link" to="/projects">
           <BsBriefcase />
         </Link>
+        {/* <Link className="nav-link" to="/obs">
+          <SiObsstudio />
+        </Link> */}
         <Link className="nav-link" to="/contact">
           <BsChatSquareText />
         </Link>
