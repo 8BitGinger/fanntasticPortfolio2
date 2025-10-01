@@ -16,11 +16,11 @@ const subtitle3 = 'React, Gemini API, Formspree';
 const link3 = 'https://social-up.vercel.app/';
 const git3 = 'https://github.com/8BitGinger/socialUp';
 
-// import img5 from '../assets/images/project-pics/geminiProject.jpg';
-// const title5 = 'Gemini Clone';
-// const subtitle5 = 'Gemini API';
-// const link5 = 'https://gemini-ryan.netlify.app/';
-// const git5 = 'https://github.com/8BitGinger/geminiClone';
+import img5 from '../assets/images/project-pics/cindervoidProject.jpg';
+const title5 = 'Cindervoid RPG';
+const subtitle5 = 'Framer, React, Google Forms';
+const link5 = 'https://www.cindervoid.fun';
+const git5 = 'https://github.com/8BitGinger/cindervoidrpg';
 
 // import img5 from '../assets/images/project-pics/myPhoneProject.jpg';
 // const title5 = 'myPhone UI';
@@ -152,14 +152,14 @@ const projectList = [
     link: link4,
     git: git4,
   },
-  // {
-  //   name: 'project-5',
-  //   img: img5,
-  //   title: title5,
-  //   subtitle: subtitle5,
-  //   link: link5,
-  //   git: git5,
-  // },
+  {
+    name: 'project-5',
+    img: img5,
+    title: title5,
+    subtitle: subtitle5,
+    link: link5,
+    git: git5,
+  },
   {
     name: 'project-6',
     img: img6,
