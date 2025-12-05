@@ -22,12 +22,6 @@ const subtitle5 = 'Framer, React, Google Forms';
 const link5 = 'https://www.cindervoid.fun';
 const git5 = 'https://github.com/8BitGinger/cindervoidrpg';
 
-// import img5 from '../assets/images/project-pics/myPhoneProject.jpg';
-// const title5 = 'myPhone UI';
-// const subtitle5 = 'UI Design / Mini Projects';
-// const link5 = 'https://myphone-oi33.onrender.com/';
-// const git5 = '';
-
 import img6 from '../assets/images/project-pics/workforceManagerProject.jpg';
 const title6 = 'Workforce Manager';
 const subtitle6 = 'BackEnd CRM';
@@ -76,11 +70,11 @@ const subtitle13 = 'JS, Sass';
 const link13 = 'https://8bitginger.github.io/casinoSlot/';
 const git13 = 'https://github.com/8BitGinger/casinoSlot';
 
-import img14 from '../assets/images/project-pics/nodeSlotsProject.jpg';
-const title14 = 'Node Slots';
-const subtitle14 = 'Node.js';
-const link14 = 'https://8bitginger.github.io/nodeslots/';
-const git14 = 'https://github.com/8BitGinger/nodeslots';
+import img14 from '../assets/images/project-pics/fxWizardProject.png';
+const title14 = 'FX Wizard';
+const subtitle14 = 'OBS, Websockets';
+const link14 = 'https://github.com/8BitGinger/FXWizard';
+const git14 = '';
 
 import img15 from '../assets/images/project-pics/myCalProject.jpg';
 const title15 = 'myCal';
@@ -106,11 +100,6 @@ const subtitle18 = 'Python';
 const link18 = 'https://8bitginger.github.io/citrus/';
 const git18 = 'https://github.com/8BitGinger/citrus';
 
-import img19 from '../assets/images/project-pics/myPhoneProject.jpg';
-const title19 = 'myPhone UI';
-const subtitle19 = 'UI Design / Mini Projects';
-const link19 = 'https://myphone-oi33.onrender.com/';
-const git19 = '';
 
 import imgX from '../assets/images/project-pics/constructionProject.jpg';
 const titleX = 'Future Project';
@@ -216,6 +205,14 @@ const projectList = [
     link: link12,
     git: git12,
   },
+    {
+    name: 'project-14',
+    img: img14,
+    title: title14,
+    subtitle: subtitle14,
+    link: link14,
+    git: git14,
+  },
   {
     name: 'project-13',
     img: img13,
@@ -224,14 +221,7 @@ const projectList = [
     link: link13,
     git: git13,
   },
-  // {
-  //   name: 'project-14',
-  //   img: img14,
-  //   title: title14,
-  //   subtitle: subtitle14,
-  //   link: link14,
-  //   git: git14,
-  // },
+
   // {
   //   name: 'project-15',
   //   img: img15,
