@@ -16,9 +16,9 @@ const subtitle3 = 'React, Gemini API, Formspree';
 const link3 = 'https://social-up.vercel.app/';
 const git3 = 'https://github.com/8BitGinger/socialUp';
 
-import img5 from '../assets/images/project-pics/cindervoidProject.jpg';
+import img5 from '../assets/images/project-pics/cindervoidProject.png';
 const title5 = 'Cindervoid RPG';
-const subtitle5 = 'Framer, React, Google Forms';
+const subtitle5 = 'Framer, React, Suno, Gemini';
 const link5 = 'https://www.cindervoid.fun';
 const git5 = 'https://github.com/8BitGinger/cindervoidrpg';
 

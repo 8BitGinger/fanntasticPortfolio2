@@ -29,11 +29,15 @@ const skills = [
     level: 'Experienced',
     value: 50,
   },
-
   {
-    name: 'APIs',
+    name: 'MongoDB',
     level: 'Experienced',
     value: 50,
+  },
+  {
+    name: 'APIs',
+    level: 'Intermediate',
+    value: 75,
   },
   {
     name: 'Node',

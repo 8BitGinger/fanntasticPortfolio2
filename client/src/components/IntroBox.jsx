@@ -76,9 +76,7 @@ const IntroBox = () => {
 
 
       <p className="intro-paragraph">
-        I&apos;m a Full Stack MERN developer specializing in React & dedicated
-        to crafting visually stunning, storytelling websites. My IT engineering
-        experience allows me to build robust, high-performance applications. I thrive on transforming complex ideas into seamless digital realities. 
+       I am a Full Stack MERN developer specializing in React, dedicated to crafting high-performance, storytelling websites. Leveraging my IT engineering expertise, I build robust applications that transform complex ideas into seamless digital realities. I don&apos;t just write code, I create digital experiences.
       </p>
       
       
